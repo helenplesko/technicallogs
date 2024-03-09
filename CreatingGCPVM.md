@@ -1,17 +1,21 @@
 # Virtual Machine on Google Cloud Platform
 
+```
 In this log:
 
 - [x] Creating a Virtual Machine on Google Gloud Platform
 - [x] Setting Firewall Rules for Virtual Machine on Google Cloud Platform
 - [x] How to check your ArcGIS Server Manager and REST Endpoints
 - [x] How to Start and Stop Your Virtual Machine on Google Cloud Platform
+```
 
 ## Creating a Virtual Machine on Google Gloud Platform
 
+```
 Purpose: Creating and accessing an ArcGIS Server on Google Cloud Platform
 
 Expected Duration: 30 mins
+```
 
 ### Steps
 
@@ -20,7 +24,7 @@ Expected Duration: 30 mins
 > [!NOTE] 
 > Before proceding, click the ```hamburger button``` on the top-left corner of the page and select ```Billing```. Ensure the billing account is set to **Billing Account for Education** so that the credits are applied to the project. If no credits are being applied for this project, skip this step.
 
-2. Click on the hamburger button on the top-left corner of the page, hover over ```Compute Engine``` and click ```VM Instances```.
+2. Click on the ```hamburger button``` on the top-left corner of the page, hover over ```Compute Engine``` and click ```VM Instances```.
 
 3. Click ```ENABLE``` to enable the project. This might take a couple of minutes to complete. When it is complete, the page will automatically reload.
 
@@ -49,7 +53,7 @@ Expected Duration: 30 mins
 > [!IMPORTANT]
 > Copy down the password somewhere, Notepad++ is recommended.
 
-:tada: Congratulations! You have now completed the task of created a Virtual Machine on Google Cloud Platform!
+:tada: *Congratulations! You have now completed the task of created a Virtual Machine on Google Cloud Platform!*
 
 > [!WARNING]
 > If you are stopping here, remember to STOP the virtual machine or else it will continue to run and bill to your account.
@@ -57,9 +61,11 @@ Expected Duration: 30 mins
 
 ## Setting Firewall Rules for Virtual Machine on Google Cloud Platform
 
+```
 Purpose: Creating a Firewall Rule to access ArcGIS Server Manager on the GCP Virtual Machine
 
 Expected Duration: 10 mins
+```
 
 ### Steps
 
@@ -79,7 +85,7 @@ Expected Duration: 10 mins
 
 4. The page will automatically refresh, and you will now see your firewall rule
 
-:tada: Congratulations! You have now completed the task of adding a Firewall Rule to your Virtual Machine on Google Cloud Platform!
+:tada: *Congratulations! You have now completed the task of adding a Firewall Rule to your Virtual Machine on Google Cloud Platform!*
 
 > [!WARNING]
 > If you are stopping here, remember to STOP the virtual machine or else it will continue to run and bill to your account.
@@ -87,9 +93,11 @@ Expected Duration: 10 mins
 
 ## How to check your ArcGIS Server Manager and REST Endpoints
 
+```
 Purpose: To access manager capabilities through ArcGIS Server Manager on the GCP Virtual Machine
 
 Expected Duration: 5 mins
+```
 
 ### Steps
 
@@ -103,13 +111,15 @@ Expected Duration: 5 mins
 
 5. To access the ArcGIS Server Manager, type in the IP address followed by ```/arcgis/manager```.
 
-:tada: Congratulations! You have now learned how to check the REST endpoint and ArcGIS Server Manager of your server.
+:tada: *Congratulations! You have now learned how to check the REST endpoint and ArcGIS Server Manager of your server.*
 
 ## How to Start and Stop Your Virtual Machine on Google Cloud Platform
 
+```
 Purpose: Stopping your virtual machine when it is not in use and resuming it when you would like to use it again. This is an important step because you do not want unwanted charges on your account as the server will run in the background if it is not stopped.
 
 Expected Duration: 5 mins
+```
 
 ### Steps
 
@@ -119,7 +129,7 @@ Expected Duration: 5 mins
 
 3. If you would like to start it up again, simply click the three dots again and then ```Start / Resume```.
 
-:tada: Congratulations! You have now learned how to start and stop your virtual machine through Google Cloud Platform.
+:tada: *Congratulations! You have now learned how to start and stop your virtual machine through Google Cloud Platform.*
 
 ## References
 
