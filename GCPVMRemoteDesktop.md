@@ -140,8 +140,8 @@ Expected Duration: 5 mins
 
 5. On your VM Instances page, the Status of your VM will update to a grey dot with a white 'stop' symbol in the center.
 
-    > [!NOTE] 
-    > The VM Instances page can be accessed through Google Cloud Platform by clicking on the ```hamburger button``` on the top-left corner of the page, hovering over ```Compute Engine``` and clicking ```VM Instances```.
+> [!NOTE] 
+> The VM Instances page can be accessed through Google Cloud Platform by clicking on the ```hamburger button``` on the top-left corner of the page, hovering over ```Compute Engine``` and clicking ```VM Instances```.
 
 6. If you would like to start it up again, simply click the three dots and then ```Start / Resume```.
 
