@@ -9,7 +9,7 @@ In this log:
 - [x] List them all in order so user knows what to expect throughout the document
 
 
-## Title of task
+## Title of task 1
 
 Learn how to ... (insert the goal/outcome of task)
 
@@ -24,7 +24,7 @@ Duration: (insert time it will take to complete the task)
 
 2. Step 2
 
-3. Step 3
+3. etc.
 
 :tada: *Congratulations! You have now learned how to ...*
 
@@ -44,6 +44,8 @@ Include any references used here
 ```:tada:``` Emoji for completion message ```:tada:```
 
 *Indication that task is complete*
+
+```---``` Insert horizontal line between tasks
 
 > [!NOTE]
 > Informative text
