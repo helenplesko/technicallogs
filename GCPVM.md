@@ -1,21 +1,19 @@
 # Virtual Machine on Google Cloud Platform
 
-```
 In this log:
 
 - [x] Creating a Virtual Machine on Google Gloud Platform
 - [x] Setting Firewall Rules for Virtual Machine on Google Cloud Platform
 - [x] How to check your ArcGIS Server Manager and REST Endpoints
 - [x] How to Start and Stop Your Virtual Machine on Google Cloud Platform
-```
+- [x] References
+
 
 ## Creating a Virtual Machine on Google Gloud Platform
 
-```
-Purpose: Creating and accessing an ArcGIS Server on Google Cloud Platform
+Learn how to create and access a virtual machine on Google Cloud Platform
 
 Expected Duration: 30 mins
-```
 
 ### Steps
 
@@ -35,7 +33,7 @@ Expected Duration: 30 mins
     - Under Boot disk, click ```CHANGE```. 
         - Select ```CUSTOM IMAGES``` at the top of the page
         - Click ```CHANGE``` to change the **Source project for images**
-        - Select ```ALL``` at the top of this new window and select ```Shawn's ArcGIS Server``
+        - Select ```ALL``` at the top of this new window and select ```Shawn's ArcGIS Server```
         - Choose the image from the dropdown menu, accept all other defaults, and click ```SELECT```
     - The Boot disk menu should be updated with your chosen image
     - Scroll down to the Firewall settings and select ```Allow HTTP traffic``` and ```Allow HTTPS traffic```
@@ -48,7 +46,7 @@ Expected Duration: 30 mins
 
 5. You should now see that the status of your VM Instance is checked and running, indicated with a green checkmark. 
 
-6. Under ```Connect``` on your VM instance, click ```Set Windows password```. Enter the **Username** provided and click ```SET```.
+6. Under Connect on your VM instance, click ```Set Windows password```. Enter the **Username** provided and click ```SET```.
 
 > [!IMPORTANT]
 > Copy down the password somewhere, Notepad++ is recommended.
@@ -59,13 +57,15 @@ Expected Duration: 30 mins
 > If you are stopping here, remember to STOP the virtual machine or else it will continue to run and bill to your account.
 > See below for more details.
 
+
 ## Setting Firewall Rules for Virtual Machine on Google Cloud Platform
 
-```
-Purpose: Creating a Firewall Rule to access ArcGIS Server Manager on the GCP Virtual Machine
+Learn how to create a Firewall Rule to only allow certain ports to access ArcGIS Server Manager on the GCP Virtual Machine
+
+Assumption(s):
+- You have already created a vitual machine on Google Cloud Platform
 
 Expected Duration: 10 mins
-```
 
 ### Steps
 
@@ -91,13 +91,15 @@ Expected Duration: 10 mins
 > If you are stopping here, remember to STOP the virtual machine or else it will continue to run and bill to your account.
 > See below for more details.
 
+
 ## How to check your ArcGIS Server Manager and REST Endpoints
 
-```
-Purpose: To access manager capabilities through ArcGIS Server Manager on the GCP Virtual Machine
+Learn how to access manager capabilities of the GCP virtual machine through ArcGIS Server Manager
+
+Assumption(s):
+- You have already created a vitual machine on Google Cloud Platform
 
 Expected Duration: 5 mins
-```
 
 ### Steps
 
@@ -105,21 +107,23 @@ Expected Duration: 5 mins
 
 2. Copy the **External IP** address for you VM Instance.
 
-3. Open a new window and paste the external IP address into your browser followed by ```/arcgis/rest/services ```. Hit ```Enter``` on your keyboard.
+3. Open a new window and paste the external IP address into your browser followed by **/arcgis/rest/services**. Hit ```Enter``` on your keyboard.
 
 4. The page should now result in the REST endpoint for your server.
 
-5. To access the ArcGIS Server Manager, type in the IP address followed by ```/arcgis/manager```.
+5. To access the ArcGIS Server Manager, type in the IP address followed by **/arcgis/manager**.
 
 :tada: *Congratulations! You have now learned how to check the REST endpoint and ArcGIS Server Manager of your server.*
 
+
 ## How to Start and Stop Your Virtual Machine on Google Cloud Platform
 
-```
-Purpose: Stopping your virtual machine when it is not in use and resuming it when you would like to use it again. This is an important step because you do not want unwanted charges on your account as the server will run in the background if it is not stopped.
+Learn how to stop your virtual machine when it is not in use and resume it when you would like to use it again. This is an important step because you do not want unwanted charges on your account as the server will run in the background if it is not stopped.
+
+Assumption(s):
+- You have already created a vitual machine on Google Cloud Platform
 
 Expected Duration: 5 mins
-```
 
 ### Steps
 
@@ -127,9 +131,10 @@ Expected Duration: 5 mins
 
 2. Once complete, the Status of your VM will update to a grey dot with a white 'stop' symbol in the center.
 
-3. If you would like to start it up again, simply click the three dots again and then ```Start / Resume```.
+3. If you would like to start it up again, simply click the three dots and then ```Start / Resume```.
 
 :tada: *Congratulations! You have now learned how to start and stop your virtual machine through Google Cloud Platform.*
+
 
 ## References
 
