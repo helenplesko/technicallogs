@@ -1,13 +1,15 @@
 # Title of Log
 
 > [!IMPORTANT]
-> Include any prerequisites here
+> Include prerequisites here, if any
 
 In this log:
 
-- [x] Title of task goes here
-- [x] List them all in order so user knows what to expect throughout the document
+- [x] Title of task goes here (insert date task was completed | insert time it took to complete the task)
+- [x] List them all in order so user knows what to expect throughout the document (insert date task was completed | insert time it took to complete the task)
+- [ ] Only when the task is fully documented do you check this off (insert date task was completed | insert time it took to complete the task)
 
+Total Duration: insert the total time it took to complete all tasks in the log
 
 ## Title of task 1
 

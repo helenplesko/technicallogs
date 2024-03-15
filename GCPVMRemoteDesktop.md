@@ -5,11 +5,13 @@
 
 In this log:
 
-- [x] Accessing the Remote Desktop
-- [x] Setting Firewall Rules on the Remote Desktop
-- [x] How to check your ArcGIS Server Manager and REST Endpoints
-- [x] How to Start and Stop Your GCP Virtual Machine on the Remote Desktop
+- [x] Accessing the Remote Desktop (08/03/24 | 10 mins)
+- [x] Setting Firewall Rules on the Remote Desktop (08/03/24 | 10 mins)
+- [x] How to check your ArcGIS Server Manager and REST Endpoints (08/03/24 | 5 mins)
+- [x] How to Start and Stop Your GCP Virtual Machine on the Remote Desktop (08/03/24 | 5 mins)
 - [x] References
+
+Total Duration: 30 mins
 
 ---
 

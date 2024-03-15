@@ -2,12 +2,13 @@
 
 In this log:
 
-- [x] Creating a Virtual Machine on Google Gloud Platform
-- [x] Setting Firewall Rules for Virtual Machine on Google Cloud Platform
-- [x] How to check your ArcGIS Server Manager and REST Endpoints
-- [x] How to Start and Stop Your Virtual Machine on Google Cloud Platform
+- [x] Creating a Virtual Machine on Google Gloud Platform (08/03/24 | 30 mins)
+- [x] Setting Firewall Rules for Virtual Machine on Google Cloud Platform (08/03/24 | 10 mins)
+- [x] How to check your ArcGIS Server Manager and REST Endpoints (08/03/24 | 5 mins)
+- [x] How to Start and Stop Your Virtual Machine on Google Cloud Platform (08/03/24 | 5 mins)
 - [x] References
 
+Total Duration: 50 mins
 
 ## Creating a Virtual Machine on Google Gloud Platform
 

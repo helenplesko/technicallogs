@@ -6,8 +6,8 @@
 
 In this log:
 
-- [x] 
-- [x] References
+- [ ] 
+- [ ] References
 
 ---
 
