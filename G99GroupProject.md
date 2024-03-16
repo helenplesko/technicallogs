@@ -2,14 +2,14 @@
 
 In this log:
 
-- [ ] Project Overview
+- [x] Project Overview 
 - [x] Uploading Lindsay transit data to ArcGIS Online (15/03/24 | 15 mins)
 - [ ] Exploring QGIS as an open source web solution (date | duration)
 
-Total Duration: insert the total time it took to complete all tasks in the log
+Total Duration: 15 mins
 
 ## Project Overview
-We are exploring web solutions to find a user-friendly web application that will best help the general public naviate around Lindsay, Ontario, through public transportation.
+A group of four GIS students are exploring web solutions to find a user-friendly web application that will best help the general public navigate around Lindsay, Ontario, through public transportation.
 
 ## Uploading Lindsay transit data to ArcGIS Online
 
@@ -33,7 +33,7 @@ Duration: 15 mins
 5. In this case, we want the **Shapefile**. Find the shapefile on the list, click ```Download```. The zipfile including all shapefile data will automatically start downloading to the computer.
 
 > [!IMPORTANT]
-> Keep the folder zipped! ArcGIS Online will want you to upload a zipped file.
+> Keep the folder zipped! ArcGIS Online will want you to upload a new item in a zipped file.
 
 6. In a separate browser, sign into **ArcGIS Online**: https://www.arcgis.com/index.html# 
 
@@ -51,7 +51,7 @@ Duration: 15 mins
 
 13. The shapefile will now appear in your AGOL with its associated hosted feature layer!
 
-14. Repeat all steps for Lindsay's  Bus Stops
+14. Repeat all steps for Lindsay's Bus Stops
 
 :tada: *Congratulations! You have now learned how to upload the Lindsay, Ontario, transit data to ArcGIS Online*
 
@@ -59,7 +59,7 @@ Duration: 15 mins
 > Click the hosted feature layer and view in Map Viewer to see the data on a map.
 
 > [!WARNING]
-> After further inspection of data, it was discovered that some bus stops were missing. Further processing of data must be done to ensure the general public are using accurate data to navigate around the city.
+> After further inspection of the data, it was discovered that some bus stops were missing. Further processing must be done to ensure the general public can rely on the data to navigate around the city.
 
 ## Exploring QGIS as an open source web solution
 
@@ -79,4 +79,5 @@ Duration:
 
 ## References
 
-Include any references used here
+Data:
+https://hub.arcgis.com/documents/ca68660b0e3e47a09a667d2f0963df99/about 
