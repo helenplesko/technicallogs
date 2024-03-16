@@ -25,12 +25,20 @@ Expected Duration: 30 mins
 
 2. Click on the ```hamburger button``` on the top-left corner of the page, hover over ```Compute Engine``` and click ```VM Instances```.
 
+![VMInstance](../images/GCPVM/VMInstance.png)
+
 3. Click ```ENABLE``` to enable the project. This might take a couple of minutes to complete. When it is complete, the page will automatically reload.
 
 4. Click ```CREATE INSTANCE``` at the top of the page. On the VM Instance page:
     - Set the **Name** of the virtual machine
     - Select (or keep) the Region **us-central1 (Iowa)** and Zone **us-central1-a**
+
+    ![VMRegionZone](../images/GCPVM/RegionZone.png)
+
     - Under Machine Configuration, set it to **General purpose**, set the series to **E2**, and set the machine type to **e2-medium (2 vSPU, 1 core, 4 GB memory)**
+
+    ![MachineConfig](../images/GCPVM/MachineConfig.png)
+
     - Under Boot disk, click ```CHANGE```. 
         - Select ```CUSTOM IMAGES``` at the top of the page
         - Click ```CHANGE``` to change the **Source project for images**
@@ -48,6 +56,8 @@ Expected Duration: 30 mins
 5. You should now see that the status of your VM Instance is checked and running, indicated with a green checkmark. 
 
 6. Under Connect on your VM instance, click ```Set Windows password```. Enter the **Username** provided and click ```SET```.
+
+![VMSetPassword](../images/GCPVM/VMSetPassword.png)
 
 > [!IMPORTANT]
 > Copy down the password somewhere, Notepad++ is recommended.
@@ -74,7 +84,13 @@ Expected Duration: 10 mins
 
 2. After or while the VM Instance is being created, under Related actions, click ```Set up firewall rules```.
 
-3. At the top of the page, click ```CREATE FIREWALL RULE```. In this new window:
+![FirewallSetUp](../images/GCPVM/FirewallSetUp.png)
+
+3. At the top of the page, click ```CREATE FIREWALL RULE```. 
+
+![FirewallCreateRule](../images/GCPVM/FirewallCreateRule.png)
+
+4. In this new window:
     - Set the **Name** of the rule
     - Set the Direction of traffic to **Ingress**
     - Set the Action on match to **Allow**
@@ -84,7 +100,9 @@ Expected Duration: 10 mins
     - Under Protocols and ports, click ```Specified protocols and ports```, click ```TCP``` and enter **444** under Ports
     - Accept all other defaults and create the firewall rule
 
-4. The page will automatically refresh, and you will now see your firewall rule
+5. The page will automatically refresh, and you will now see your firewall rule
+
+![FirewallResults](../images/GCPVM/FirewallResults.png)
 
 :tada: *Congratulations! You have now completed the task of adding a Firewall Rule to your Virtual Machine on Google Cloud Platform!*
 
@@ -107,6 +125,8 @@ Expected Duration: 5 mins
 1. Ensure you are on the VM Instances page, which can be accessed by clicking on the ```hamburger button``` on the top-left corner of the page, hovering over ```Compute Engine``` and clicking ```VM Instances```.
 
 2. Copy the **External IP** address for you VM Instance.
+
+![CopyExternalIP](../images/GCPVM/CopyExternalIP.png)
 
 3. Open a new window and paste the external IP address into your browser followed by **/arcgis/rest/services**. Hit ```Enter``` on your keyboard.
 
