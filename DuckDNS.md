@@ -27,16 +27,26 @@ Duration: 5 mins
 
 1. Visit DuckDNS at https://www.duckdns.org/ 
 
-2. Sign in to create an account to store your domains.
+2. At the top of the page, choose your desired sign in option. Sign in to create an account to store your domains.
 
 > [!TIP]
 > Sign in with the same Google Account you use for your VM on Google Cloud Platform to keep things simple.
 
+![DuckDNS homepage](/images/DuckDNS/DuckDNSpage.png)
+
 3. If this is your first time signing in, you may be asked to complete the reCAPTCHA. If so, click the ```>>> reCaptcha <<<``` button. 
+
+![duckdns recaptcha](/images/DuckDNS/DuckDNSReCAPTCHA.png)
 
 4. You will now see an updated page with **account, type, token, when the token was generated, and creation date and time**.
 
-5. Below that information is where your domains are stored. You can have up to 5 domains.
+![after signing in](/images/DuckDNS/DuckDNSAfterSigningIn.png)
+
+5. Below that information is where your domains are stored. 
+    - You can have up to 5 domains.
+    - If this is your first time signing in, there will be no domains.
+
+![Empty Domain](/images/DuckDNS/DuckDNSEmptyDomain.png)
 
 6. Enter a **domain** name.
     - Pick a name that is not already in use
@@ -44,6 +54,8 @@ Duration: 5 mins
     - The URL will be ```https://YOURDOMAIN.duckdns.org```
 
 7. Click ```add domain```. You will now see your domain addd to the list.
+
+![new domain](/images/DuckDNS/DuckDNSNewDomain.png)
 
 :tada: *Congratulations! You have now completed the task of creating a DNS on DuckDNS!*
 
@@ -103,13 +115,20 @@ Duration: 5 mins
 
 2. Copy your **External IP** from your VM.
 
-3. Open up a new browser and paste your **External IP** in the address bar. Click ```Enter```.
+3. In a new browser:
+    - Paste your **External IP** in the address bar
+    - Click ```Enter``` on your keyboard
+    - This will open up your **Window Server Internet Information Services** page.
 
-4. This will open up your **Window Server Internet Information Services** page.
+![testing external ip](/images/DuckDNS/DuckDNSTestingExtIP.png)
 
-5. In another tab, type in your **DuckDNS URL** in the address bar. Click ```Enter```.
+4. In a new tab:
+    - Type in your **DuckDNS URL** in the address bar
+    - Click ```Enter``` on your keyboard
+    - This will ALSO open up your **Window Server Internet Information Services** page
+    - This confirms the DNS is working
 
-6. This will ALSO open up your **Window Server Internet Information Services** page. This confirms the DNS is working.
+![testing domain](/images/DuckDNS/DuckDNSTestingDomain.png)
 
 :tada: *Congratulations! You have now completed the task testing your newly created and connected DNS!*
 
