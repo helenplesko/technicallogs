@@ -44,6 +44,10 @@ Duration: 10 mins
     - Click ```New ArcGIS Server```
     - Enter **Server URL** as your https://externalip:6443/arcgis
     - Enter **Authentication** provided to us in the documentation
+    - Click ```OK```
+
+> [!TIP]
+> Best to NOT save login at this time, since the external IP is going to change every time the VM is started and stopped.
 
 ![Connect Server](/images/GCPVMArcGIS/AGPtoAGSConnectServer.png)
 
@@ -53,9 +57,6 @@ Duration: 10 mins
 > If a **Security** alert pops up saying that the certificate issuer for the site is untrusted or unknown, click ```Yes``` to proceed anyways.
 
 ![Security alert](/images/GCPVMArcGIS/AGPtoAGSSecurityAlert.png)
-
-> [!TIP]
-> Best to NOT save login at this time, since the external IP is going to change every time the VM is started and stopped.
 
 5. Check that the Server is connected by navigating to your **Catalog Pane** in your project and click ```Servers```. You should see the arcgis server there.
 
@@ -77,7 +78,7 @@ Assumption(s):
 - You have already connected your server to the ArcGIS Pro project
 - You are signed into the Remote Desktop
 
-Duration: 40 mins
+Duration: 60 mins
 
 ### Steps
 
@@ -90,7 +91,10 @@ Duration: 40 mins
 2. Double check that you are connected to the Server:
     - In the **Catalog Pane**, expand the **Servers**.
     - If you see the server, you may proceed to the next step. 
-    - If you do not see the server, refer back to the first task in this technical log.
+
+> [!IMPORTANT]
+> If you do not see the server, the server is NOT connected and you will not be able to complete the task.
+> Refer back to the first task in this technical log.
 
 3. Once you are connected, in the **Catalog Pane**:
     - Right click on ```Folders```
