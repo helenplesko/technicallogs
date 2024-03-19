@@ -27,14 +27,14 @@ Duration: 10 mins
 
 ### Steps
 
-1. On the Remote Desktop, open ```Microsoft Edge``` web browser.
+1. On the Remote Desktop, open the default web browser. In this case, it's ```Mozilla Firefox```.
 
 > [!NOTE]
-> Yes, use Microsoft Edge. Do NOT try downloading Google Chrome on the machine.
+> Yes, use Mozilla Firefox. Do NOT try downloading Google Chrome on the machine.
 
 2. Visit https://www.win-acme.com/.
 
-3. Click ```Download``` dropdown menu, and from there, click ```2.1.23 (recommended)```. The zipped file should download quickly.
+3. Click ```Download``` dropdown menu, and from there, click ```2.2.8 (recommended)```. The zipped file should download quickly.
 
 4. Open your **File Explorer** and go to your **Downloads**. 
 
@@ -51,13 +51,21 @@ Duration: 10 mins
     - Accept all other defaults and click ```OK```
     - Your URL will now appear under **Host Name** for **https** site type
     - Click ```Close``` to close the **Site Bindings** window
+    - The URL will also now appear under the **Browse Website** heading on the righthand side
 
 6. In **File Explorer**, open the unzipped folder. 
 
 7. Right-click the ```wacs.exe``` software program and click ```Run as administrator```.
 
 > [!NOTE]
+> If a **Windows protected your PC** appears, click ```More info``` and then ```Run anyway```
+
+![run anyway](/images/SSLCertificate/SSLCertRunAnyway.png)
+
+> [!NOTE]
 > If a **User Account Control** window pops up and asks if you want to allow the app from an unknown publisher to make changes to your device, click ```Yes```.
+
+![user acount control](/images/SSLCertificate/SSLCertUserAccountControl.png)
 
 8. A **Command Prompt** window will pop up and start running. We are going to be entering some defaults...
     - Type **n** and click ```Enter``` on your keyboard to select the **Create certificate** option
@@ -67,6 +75,10 @@ Duration: 10 mins
     - Click ```Enter``` on your keyboard to select default NO to not open the terms of service
     - Click ```Enter``` on your keyboard to select default YES to agree to the terms
     - Enter an **email address** so if there are any issues, they can get a hold of you. Click ```Enter``` on your keyboard.
+
+![win acme 1](/images/SSLCertificate/SSLwinacme1.png)
+
+![win acme 2](/images/SSLCertificate/SSLwinacme2.png)
 
 9. The last message before the menu options should now read **Certificate [IIS] Default Web Site, (any host) created**.
 
@@ -116,9 +128,13 @@ Duration: 5 mins
 
 4. Click ```Connection is secure```.
 
+![connection is secure](/images/SSLCertificate/SSLCertSecureConnection.png)
+
 5. Click the ```certificate icon``` in the top righthand corner to view the certificate. 
     - Under **Issued To**, the **Common Name (CN)** is your DuckDNS URL
     - Under **Validity Period**, you will see when it was issued and when it will expire
+
+![certificate proof](/images/SSLCertificate/SSLCertFinal.png)
 
 :tada: *Congratulations! You have now completed the task of testing the SSL Certificate in a web browser of the remote desktop!*
 
