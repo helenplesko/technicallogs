@@ -165,7 +165,7 @@ Duration: 30 mins
 10. Explore the new data
 
 | Item  | Type  | Location  | Description  |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | LineVariantElements  | Line  | Feature Dataset  | shows the route of the transit vehicle  |
 | Stops  | Point  | Feature Dataset  | shows the bus stops  |
 | CalendarExceptions  | Table  | Geodatabase  | ServiceID, ExceptionDate, ExceptionType |
@@ -181,6 +181,7 @@ Duration: 30 mins
 - Can schedule data be added to the tables?
 - What type of calendar exceptions are they?
 - Can we determine how long it will take to go from one stop to another?
+- What other tools in the Public Transit toolbox might be useful for our project?
 
 ---
 
