@@ -9,6 +9,7 @@ In this log:
 - [x] Exploring Mapbox as a web solution (21/03/24 | 40 mins)
 - [x] Exploring OpenStreetMap as a web solution (22/03/24 | 40 mins)
 - [x] Using the LIO Basemap (22/03/24 | 15 mins)
+- [x] Exploring other cities' public transit websites (22/03/24 | 15 mins)
 - [x] References
 
 Total Duration: 2 hr 25 mins
@@ -395,6 +396,49 @@ Duration: 15 mins
 - Access the basemap at the item page on AGOL: https://www.arcgis.com/home/item.html?id=547ee954b12341e0be4f907ed4d06b5d
 - From here you can ```Open in Map Viewer``` and add layers to it.
 - I completed these steps and overlain the Lindsay transit route and shared it with the group in AGOL.
+
+---
+
+## Exploring other cities' public transit websites
+
+Learn about what other cities include for the public on their public transit websites. This information will help us decide what contents to include on our final web product.
+
+Duration: 15 mins
+
+### Toronto Transit Commission (TTC)
+
+https://www.ttc.ca/
+
+#### Page inpiration
+
+- bus routes and schedules: https://www.ttc.ca/routes-and-schedules/listroutes/bus
+- fare prices: https://www.ttc.ca/Fares-and-passes
+- accessibility: https://www.ttc.ca/accessibility
+- Triplinx Trip Planner: https://www.triplinx.ca/
+
+### Metrolinx GO Transit
+
+https://www.gotransit.com/en
+
+#### Features on the site
+
+- transit schedules: https://www.gotransit.com/en/see-schedules/pdf-schedules
+- fare info: https://www.gotransit.com/en/ways-to-pay/fare-information
+- plan your route: https://www.gotransit.com/en/plan-your-trip
+- transit stops: https://www.gotransit.com/en/find-a-station-or-stop
+- for students: https://www.gotransit.com/en/student-savings
+
+### Mississauga's MiWay
+
+https://www.mississauga.ca/miway-transit/
+
+#### Features on site
+
+- bus route maps: https://www.mississauga.ca/miway-transit/maps/miway-route-maps/
+- bus schedules: https://www.mississauga.ca/miway-transit/schedules/
+- fare prices: https://www.mississauga.ca/miway-transit/fares/fare-prices/
+- Triplinx Trip Planner: https://www.triplinx.ca/
+- for students: https://www.mississauga.ca/miway-transit/travelling-with-us/students/
 
 ---
 
