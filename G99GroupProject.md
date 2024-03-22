@@ -54,8 +54,8 @@ URL: https://www.transit.land/feeds/f-kawartha~on~ca
 - nearly every day the feed is posted
 
 > [!NOTE]
-- I tried requesting an account to download the data, but received no confirmation email, so I am not able to sign in.
-- We may have to continue with older data for the time being.
+> I tried requesting an account to download the data, but received no confirmation email, so I am not able to sign in.
+> We may have to just continue with older data for the time being.
 
 ---
 
@@ -208,9 +208,13 @@ Duration: 30 mins
 - Can we determine how long it will take to go from one stop to another?
 - What other tools in the Public Transit toolbox might be useful for our project?
 
+> [!NOTE]
+> I've prepared a Word document to share with my group members outlining the steps and results from this task.
+> The document has been uploaded to our Group on ArcGIS Online.
+
 ---
 
-## Exploring Mapbox as an open source web solution
+## Exploring Mapbox as a web solution
 
 Learn the functionalities of Mapbox and explore it to see if it is a possible web solution to our group project
 
@@ -228,8 +232,9 @@ Duration: 40 mins
 - We need a web solution for our group project
 - This web solution has a lot of open-source capabilities, which would make our project available to a wider audience
 - Although the product is not free, they may be able to provide free licensing for student projects
+- We want to explore the functionalities to see if it is a viable solution to our problem statement
 
-### Why do people use Mapbox?
+### Why do people use or avoid Mapbox?
 
 | Advantages  | Disadvantages  |
 | ------------- | ------------- |
@@ -273,10 +278,83 @@ Created a Mapbox account and completed the tutorial 'Getting started with Mapbox
 - Need to look more into the capabilities of the free version. Might not have full routing capabilities we are looking for.
 - Not everyone in the group is comfortable with coding, so not sure if this is the best application to use.
 - Not if we can't get free licensing for student projects.
+- In the free account, you have 50,000 free map loads for web - I am assuming we will go beyond this, especially when the map is made available to the public, so Mapbox is not the viable option
 
 #### Final product
 
 ![Final mapbox](/images/Mapbox/MapboxFinal.png)
+
+> [!NOTE]
+> I've prepared a Word document to share with my group members outlining this task.
+> The document has been uploaded to our Group on ArcGIS Online.
+
+---
+
+## Exploring OpenStreetMap as a web solution
+
+Learn the functionalities of Mapbox and explore it to see if it is a possible web solution to our group project
+
+Duration: 40 mins
+
+### What is OpenStreetMap (OSM)?
+
+- OSM is a free, open-source web map maintained by the public.
+
+### Why is this web solution of interest to our project?
+
+- We need a web solution for our group project
+- This web solution is free and open-sourced
+- We want to explore the functionalities to see if it is a viable solution to our problem statement.
+
+### My pros and cons about this web solution
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| Collaborative, any changes you make go live for everyone when saved  | The imagery of the basemap changes depending on the zoom  |
+| Very user-friendly  | The buildings and roads don't completely line up  |
+| Can edit the map in-browser, without having to download anything  | Cannot do further analysis through OSM, just adding and editing features  |
+|   | The data exported isn't just a simple shapefile  |
+
+MapGive. (2014, March 24). Learn how to map in OpenStreetMap [Video]. YouTube. https://www.youtube.com/watch?v=Ir-3K0pjwOI
+
+### Explore OSM interface
+
+Visit https://www.openstreetmap.org/ and either create an account or sign in.
+
+> [!TIP]
+> If this is your first time logging in, I highly recommend going through the **Walkthrough** to learn how to create and edit points, straight and curved lines, and rectangular and circular areas (polygons). This YouTube video by MapGives is also a great learning tool: https://www.youtube.com/watch?v=Ir-3K0pjwOI.
+
+### Things to note
+
+- The guided tour when you first create an account is very useful. It covers topics such as creating and editing points, straight and curved lines, and rectangular and circular areas (polygons). It is available at any time, if you have to go back to it.
+
+- When adding features to the map, if you accidentally add two nodes too close together, it lets you know and prompts you to edit, remove, or merge them
+
+![OSM editing features](/images/OSM/OSMEditFeature.png)
+
+- Any changes you make go live the when they are saved. This is neat because it means everyone in the world who adds features is contributing to the data, but this can also have a negative impact on the credibility and accuracy of the existing data. How do we know the data being added is correct?
+
+#### Will this be a good web solution for our project?
+
+- The features in Lindsay, Ontario, don't completely line up with the images, which can be problematic when displaying transit routes.
+
+- Does OSM display transit routes?
+	- Yes! Change the map layers to **Transport Map** to see the Lindsay Public Transit Route.
+	- **However**, this transit route is not up to date - it is currently missing the Orange transit line, which was added in Feb 2023.
+
+![OSM Lindsay transit route](/images/OSM/OSMLindsayTransit.png)
+
+- The data will have to be added to OSM and exported to another application for further processing. 
+	- **However**, since this is not a data-focused project, this solution isn't the most efficient one, given our project timeline.
+
+- I tried exporting data, and it downloaded as an .osm file. I need to do further digging into how to process this file in other applications.
+	- **However**, again, since this is not a data-focused project, this solution isn't the most efficient one, given our project timeline.
+
+- No analysis can be done on the data within OSM, just simple points, lines, and polygons can be added to the map.
+
+> [!NOTE]
+> I've prepared a Word document to share with my group members outlining this task.
+> The document has been uploaded to our Group on ArcGIS Online.
 
 ---
 
