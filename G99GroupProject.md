@@ -3,15 +3,16 @@
 In this log:
 
 - [x] Project Overview (15/03/24 | 5 mins)
+- [x] Finding Lindsay transit data (20/03/24 | 10 mins)
 - [x] Uploading Lindsay transit data to ArcGIS Online (15/03/24 | 15 mins)
 - [x] Exploring Public Transit Toolbox in ArcGIS Pro (20/03/24 | 30 mins)
-- [x] Exploring Mapbox as an open source web solution (21/03/24 | 40 mins)
-- [ ] Exploring QGIS as an open source web solution (date | duration)
+- [x] Exploring Mapbox as a web solution (21/03/24 | 40 mins)
 - [x] References
 
 Total Duration: 90 mins
 
 ---
+
 ## Project Overview
 
 **About the Project**
@@ -32,6 +33,29 @@ Kawartha Lakes. (2024). Lindsay transit. https://www.kawarthalakes.ca/en/living-
 **Bus Schedule**
 
 Kawartha Lakes. (2024). Lindsay transit. https://www.kawarthalakes.ca/en/living-here/lindsay-transit.aspx
+
+---
+
+## Finding Lindsay transit data
+
+- One group member already acquired the data
+- I did some more searching and found where the hub of real-time data is
+
+### Transitland
+
+URL: https://www.transit.land/feeds/f-kawartha~on~ca
+
+#### About 
+
+- stores the GTFS feed for Lindsay transit
+- has current static data, but it is not up to date
+	- this dataset is missing the orange transit line, which was added to the routes in Feb 2024
+- have to make a free account to download the data
+- nearly every day the feed is posted
+
+> [!NOTE]
+- I tried requesting an account to download the data, but received no confirmation email, so I am not able to sign in.
+- We may have to continue with older data for the time being.
 
 ---
 
@@ -196,13 +220,14 @@ Duration: 40 mins
 
 - Mapping and location platform for creating and customizing maps
 - Uses APIs and SDKs
-- Accounts are free, but all capabilities are not
+- Accounts are free, but many capabilities are not
 - Used by many reputable companies (Snapchat, Foursquare, etc.)
 
 ### Why is this web solution of interest to our project?
 
 - We need a web solution for our group project
 - This web solution has a lot of open-source capabilities, which would make our project available to a wider audience
+- Although the product is not free, they may be able to provide free licensing for student projects
 
 ### Why do people use Mapbox?
 
@@ -210,9 +235,9 @@ Duration: 40 mins
 | ------------- | ------------- |
 | The user interface has a "crisp look and feel"  | Many of the capabilities require coding  |
 | Pricing is flexible, free tier to start  | There isn't documentation on everything  | 
-| Super customizable, using API and SDK  | No ability to collect data / enter data in the field  |
+| Super customizable, using API and SDK  | No ability for field data collection  |
 | Augmented reality and storytelling options  | Not completely open source as people believe  |
-| Has routing and geocoding processes  |   | 
+| Has routing and geocoding processes  | Need to pay to use the services  | 
 | Tutorials available to follow  |   |
 
 GISGeography. (2024). Mapbox review: 5 things we like. https://gisgeography.com/mapbox/ 
@@ -246,7 +271,8 @@ Created a Mapbox account and completed the tutorial 'Getting started with Mapbox
 
 - It'd be neat to view the routes with the three dimensional buildings. This can make travelling easier, as you're able to locate landmarks as you go.
 - Need to look more into the capabilities of the free version. Might not have full routing capabilities we are looking for.
-- Not everyone is comfortable with coding, so not sure if this is the best application to use.
+- Not everyone in the group is comfortable with coding, so not sure if this is the best application to use.
+- Not if we can't get free licensing for student projects.
 
 #### Final product
 
@@ -254,26 +280,11 @@ Created a Mapbox account and completed the tutorial 'Getting started with Mapbox
 
 ---
 
-## Exploring QGIS as an open source web solution
-
-Learn the functionalities of QGIS and explore it to see if it is a possible web solution to our group project
-
-Assumption(s):
-- Transit data has been already downloaded
-
-Duration: 
-
-### Steps
-
-1. 
-
-:tada: *Congratulations! You have just learned some of the functionalities of QGIS*
-
----
-
 ## References
 
 Esri. (2024). GTFS to public transit data model (public transit). *ArcGIS Pro.* https://pro.arcgis.com/en/pro-app/latest/tool-reference/public-transit/gtfs-to-public-transit-data-model.htm 
+
+GISGeography. (2024). Mapbox review: 5 things we like. https://gisgeography.com/mapbox/ 
 
 Kawartha Lakes. (2024a). Lindsay transit. https://www.kawarthalakes.ca/en/living-here/resources/Transit/COKL-Transit-Map-2023.pdf 
 
