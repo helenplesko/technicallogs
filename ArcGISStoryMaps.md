@@ -2,10 +2,8 @@
 
 In this log:
 
-- [ ] What is ArcGIS StoryMaps?
-- [x] Advantages and Disadvantages of ArcGIS StoryMaps (19/03/24 | 5 mins)
-- [x] Things to consider before creating your StoryMap (19/03/24 | 5 mins)
-- [ ] Fun features in ArcGIS StoryMaps (19/03/24 | 15 mins)
+- [x] What is ArcGIS StoryMaps? (19/03/24 | 15 mins)
+- [x] Fun features in ArcGIS StoryMaps (19/03/24 | 15 mins)
 - [x] Example StoryMaps (19/03/24 | 5 mins)
 - [x] References
 
@@ -23,29 +21,19 @@ Duration: 5 mins
 
 - It is an ArcGIS application that integrates content such as text, maps, buttons, images, and more, to interactively tell a story.
 
----
+### Advantages and disadvantages of ArcGIS StoryMaps
 
-## Advantages and disadvantages of ArcGIS StoryMaps
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| Easy to use  | Can be time consuming to create  |
+| Tied to AGOL organization account  | Moving items around the page can be finicky   | 
+| Can customize the theme/look of the StoryMap  |   |
+| Coding isn't a necessary skill for this app  |   |
+| They work on different device screen sizes  |   |
+| You can preview the story on different screen sizes before and after publishing  |   |
+| Many features make it interactive  |   |
 
-Learn about the advantages and disadvantages of ArcGIS StoryMaps
-
-Duration: 5 mins
-
-### Advantages
-
-- easy to use
-- tied to AGOL organization account
-- can customize the theme/look of the StoryMaps
-- they work on different device screen sizes and you can preview them before and after publishing
-- many features make it interactive
-
-### Disadvantages
-
-- can be time consuming to create
-
----
-
-## Things to consider before creating your StoryMaps
+### Things to consider before creating your StoryMaps
 
 - What is the purpose of your StoryMap?
 - Who is your audience?
@@ -125,7 +113,16 @@ Duration: 15 mins
 
 **Why did I use it?**
 
-- I used the swipe tool in my StoryMap to compare layers.
+- I used the swipe tool in my StoryMap to compare suitability layers, before and aftering they were geoprocessed.
+
+**Advantages:**
+
+- user can easily interact with the data
+- great for comparing two images
+
+**Disadvantages:**
+
+- if directly comparing two images, they must be the same size
 
 ---
 
