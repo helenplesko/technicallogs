@@ -6,13 +6,15 @@ In this log:
 - [x] Finding Lindsay transit data (20/03/24 | 10 mins)
 - [x] Uploading Lindsay transit data to ArcGIS Online (15/03/24 | 15 mins)
 - [x] Exploring Public Transit Toolbox in ArcGIS Pro (20/03/24 | 30 mins)
-- [x] Exploring Mapbox as a web solution (21/03/24 | 40 mins)
-- [x] Exploring OpenStreetMap as a web solution (22/03/24 | 40 mins)
+- [x] Exploring Mapbox as a web solution (21/03/24 | 30 mins)
+- [x] Exploring OpenStreetMap as a web solution (22/03/24 | 30 mins)
 - [x] Using the LIO Basemap (22/03/24 | 15 mins)
 - [x] Exploring other cities' public transit websites (22/03/24 | 15 mins)
+- [ ] Exploring Experience Builder (22/03/24 | 30 mins)
+- [x] Creating CSV files for Lindsay Transit data (22/03/24 | 5 mins)
 - [x] References
 
-Total Duration: 2 hr 25 mins
+Total Duration: 3 hrs 5 mins
 
 ---
 
@@ -442,7 +444,89 @@ https://www.mississauga.ca/miway-transit/
 
 ---
 
+## Exploring Experience Builder
+
+Learn about the capabilities of Experience Builder and why it is a viable web solution for the group project
+
+Duration: 30 mins
+
+### What is it?
+
+- Experience Builder is a web application that allows you to create a web app with custom data and themes, without coding
+
+### Advantages and disadvantages of ArcGIS Experience Builder
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| Many templates to choose from  | Can be time consuming to create  |
+| Tied to AGOL organization account  | Moving items around the page can be finicky   | 
+| Can customize the theme/look  | Cannot move the published experiences between accounts  |
+| No coding involved  |   |
+| It will automatically update for different screen sizes  |   |
+| Can integrate with other apps, like Dashboards  |   |
+
+ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https://www.youtube.com/watch?v=6e7Q6sN-kcs
+
+### Things to consider before creating your Experience Builder
+
+- What is the purpose of your Experience Builder?
+- Who is your audience?
+- What theme do you want your Experience Builder to follow (e.g., colors, images, fonts, etc.)?
+- What elements are you including (e.g., tables, maps, lists, etc.)?
+
+### How to create an Experience through ArcGIS Online
+
+1. Sign into your ArcGIS Online account.
+
+![Sign into AGOL](/images/ArcGISStoryMaps/SignIn.png)
+
+2. In the top right corner beside your user icon, click the ```waffle button``` and then click ```Experience Builder```.
+
+3. Now you are on the Experience Builder main page. Here you can explore your past **Experiences** and **Templates**. 
+
+4. To create a new experience, click ```Create New```.
+
+5. Choose from the given **templates**.
+	- You can start completely from scratch and choose a **blank** template, or you can pick a template with some predefined sections.
+	- You can also base your choice on whether you want to build a Dashboard-type, Web-page-type, or Website-type experience.
+	- Decide which one you want and click ```Create```.
+
+6. From here, you can start adding features, such as titles, maps, apps, widgets, etc.
+
+### What info might be helpful to include in our web app?
+
+- map of bus stop and routes
+- table showing bus schedule
+- dropdown menu to only allow users to see upcoming buses
+- info about fare prices
+
+---
+
+## Creating CSV files for Lindsay Transit data
+
+Learn how to create a csv file from Lindsay transit data
+
+Duration: 5 mins
+
+### Create CSV for Lindsay Transit fare prices
+
+1. Visit https://www.kawarthalakes.ca/en/living-here/lindsay-transit.aspx. Scroll down on the page to see a table with fare prices, titled **Kawartha Lakes Transit Fares**.
+
+2. Open up **Microsoft Excel**.
+
+3. Enter fare data on a single sheet.
+
+4. Save as **CSV (comma delimited)** file.
+
+5. Share to ArcGIS Online Group for other members to view and use.
+
+### Create CSV for Lindsay Transit bus schedule
+
+---
+
 ## References
+
+ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https://www.youtube.com/watch?v=6e7Q6sN-kcs
 
 Esri. (2024). GTFS to public transit data model (public transit). *ArcGIS Pro.* https://pro.arcgis.com/en/pro-app/latest/tool-reference/public-transit/gtfs-to-public-transit-data-model.htm 
 
