@@ -287,7 +287,7 @@ Created a Mapbox account and completed the tutorial 'Getting started with Mapbox
 
 > [!NOTE]
 > I've prepared a Word document to share with my group members outlining this task.
-> The document has been uploaded to our Group on ArcGIS Online.
+> The document has been uploaded to our Group on ArcGIS Online and OneDrive.
 
 ---
 
@@ -355,7 +355,11 @@ Visit https://www.openstreetmap.org/ and either create an account or sign in.
 
 > [!NOTE]
 > I've prepared a Word document to share with my group members outlining this task.
-> The document has been uploaded to our Group on ArcGIS Online.
+> The document has been uploaded to our Group on OneDrive.
+
+---
+
+
 
 ---
 
