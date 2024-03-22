@@ -43,7 +43,7 @@ Include any references used here
 
 **Key words or headings**
 
-```:tada:``` Emoji for completion message ```:tada:```
+```:tada:``` Emoji for completion message :tada:
 
 *Indication that task is complete*
 
