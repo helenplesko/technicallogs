@@ -8,9 +8,10 @@ In this log:
 - [x] Exploring Public Transit Toolbox in ArcGIS Pro (20/03/24 | 30 mins)
 - [x] Exploring Mapbox as a web solution (21/03/24 | 40 mins)
 - [x] Exploring OpenStreetMap as a web solution (22/03/24 | 40 mins)
+- [x] Using the LIO Basemap (22/03/24 | 15 mins)
 - [x] References
 
-Total Duration: 130 mins
+Total Duration: 2 hr 25 mins
 
 ---
 
@@ -359,7 +360,41 @@ Visit https://www.openstreetmap.org/ and either create an account or sign in.
 
 ---
 
+## Using the LIO Basemap
 
+Learn why it is advantageous for us to use LIO basemap
+
+Duration: 15 mins
+
+### What is LIO?
+
+- LIO = Land Information Ontario
+- provides to the public a cached basemap of the province of Ontario in ArcGIS Server
+
+### Why use this basemap?
+
+- it shows the natural and constructed features of Ontario's landscape
+- it is constantly being updated
+- it is open sourced data, so we can use it in our project
+- the feature symbologies are intuitive (e.g., blue = water, known symbols for marsh, road/path networks, etc.)
+	- **however**, there is no 
+- our study area is Lindsay, Ontario, so its boundaries will be included within the basemap
+- the shown features update as you zoom in, showing more or less depending on the zoom level - prevents overcrowding of data
+	- **however**, if relying on landmarks to navigate the transit system, this layer probably isn't the most effective for that
+
+### How can you access this basemap?
+
+#### Through Rest API URL
+
+- URL: https://ws.lioservices.lrc.gov.on.ca/arcgis1061a/rest/services/LIO_Cartographic/LIO_Topographic/MapServer
+- From here you can see the JavaScript, add it to ArcGIS Online Map Viewer, and other applications
+- View the layers that are included in this map service
+
+#### Through ArcGIS Online 
+
+- Access the basemap at the item page on AGOL: https://www.arcgis.com/home/item.html?id=547ee954b12341e0be4f907ed4d06b5d
+- From here you can ```Open in Map Viewer``` and add layers to it.
+- I completed these steps and overlain the Lindsay transit route and shared it with the group in AGOL.
 
 ---
 
