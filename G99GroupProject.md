@@ -7,30 +7,31 @@ In this log:
 - [x] Uploading Lindsay transit data to ArcGIS Online (15/03/24 | 15 mins)
 - [x] Exploring Public Transit Toolbox in ArcGIS Pro (20/03/24 | 30 mins)
 - [x] Exploring Mapbox as a web solution (21/03/24 | 40 mins)
+- [x] Exploring OpenStreetMap as a web solution (22/03/24 | 40 mins)
 - [x] References
 
-Total Duration: 90 mins
+Total Duration: 130 mins
 
 ---
 
 ## Project Overview
 
-**About the Project**
+#### About the Project
 
 A group of four GIS students are exploring web solutions to find a user-friendly web application that will best help the general public navigate around Lindsay, Ontario, through public transportation.
 
-**Lindsay Transit Map**
+#### Lindsay Transit Map
 
 Kawartha Lakes. (2024). Lindsay transit. https://www.kawarthalakes.ca/en/living-here/resources/Transit/COKL-Transit-Map-2023.pdf 
 
-**Four Routes**
+#### Four Bus Routes
 
 - Orange (new as of Feb 2023)
 - Green
 - Red
 - Blue
 
-**Bus Schedule**
+#### Bus Schedule
 
 Kawartha Lakes. (2024). Lindsay transit. https://www.kawarthalakes.ca/en/living-here/lindsay-transit.aspx
 
@@ -234,7 +235,7 @@ Duration: 40 mins
 - Although the product is not free, they may be able to provide free licensing for student projects
 - We want to explore the functionalities to see if it is a viable solution to our problem statement
 
-### Why do people use or avoid Mapbox?
+### What are the advantages and disadvantages of Mapbox?
 
 | Advantages  | Disadvantages  |
 | ------------- | ------------- |
@@ -322,7 +323,7 @@ MapGive. (2014, March 24). Learn how to map in OpenStreetMap [Video]. YouTube. h
 Visit https://www.openstreetmap.org/ and either create an account or sign in.
 
 > [!TIP]
-> If this is your first time logging in, I highly recommend going through the **Walkthrough** to learn how to create and edit points, straight and curved lines, and rectangular and circular areas (polygons). This YouTube video by MapGives is also a great learning tool: https://www.youtube.com/watch?v=Ir-3K0pjwOI.
+> If this is your first time logging in, I highly recommend going through the **Walkthrough** to learn how to create and edit points, straight and curved lines, and rectangular and circular areas (polygons). This YouTube video by MapGive is also a great learning tool: https://www.youtube.com/watch?v=Ir-3K0pjwOI.
 
 ### Things to note
 
@@ -368,4 +369,8 @@ Kawartha Lakes. (2024a). Lindsay transit. https://www.kawarthalakes.ca/en/living
 
 Kawartha Lakes. (2024b). Lindsay transit. https://www.kawarthalakes.ca/en/living-here/lindsay-transit.aspx
 
+MapGive. (2014, March 24). Learn how to map in OpenStreetMap [Video]. YouTube. https://www.youtube.com/watch?v=Ir-3K0pjwOI
+
 Private member. (2020). Lindsay transit map PDF. *ArcGIS Hub.* https://hub.arcgis.com/documents/ca68660b0e3e47a09a667d2f0963df99/about 
+
+Transitland. (2024). GTFS feed: Lindsay transit. *Interline.* https://www.transit.land/feeds/f-kawartha~on~ca 
