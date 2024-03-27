@@ -10,9 +10,9 @@ In this log:
 - [x] Exploring OpenStreetMap as a web solution (22/03/24 | 30 mins)
 - [x] Using the LIO Basemap (22/03/24 | 15 mins)
 - [x] Exploring other cities' public transit websites (22/03/24 | 15 mins)
-- [x] Exploring Experience Builder part 1 (22/03/24 | 30 mins)
+- [x] Exploring Experience Builder (Part 1) (22/03/24 | 30 mins)
 - [x] Creating CSV files for Lindsay Transit fares (22/03/24 | 5 mins)
-- [x] Exploring Experience Builder part 2 (27/03/24 | 60 mins)
+- [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
 - [x] References
 
 Total Duration: 4 hrs 5 mins
@@ -445,7 +445,7 @@ https://www.mississauga.ca/miway-transit/
 
 ---
 
-## Exploring Experience Builder part 1
+## Exploring Experience Builder (Part 1)
 
 Learn about the capabilities of Experience Builder and why it is a viable web solution for the group project
 
@@ -478,8 +478,6 @@ ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https
 ### How to create an Experience through ArcGIS Online
 
 1. Sign into your ArcGIS Online account.
-
-![Sign into AGOL](/images/ArcGISStoryMaps/SignIn.png)
 
 2. In the top right corner beside your user icon, click the ```waffle button``` and then click ```Experience Builder```.
 
@@ -525,7 +523,7 @@ Duration: 5 mins
 
 ---
 
-## Exploring Experience Builder part 2
+## Exploring Experience Builder (Part 2)
 
 Learn how to customize the Experience Builder interface
 
@@ -555,10 +553,11 @@ Learn how to customize the Experience Builder interface
 ### Next steps
 
 - add a trigger to filter the bus stop times based on what time it is on the user's device
+- add logos??
+- fix field name headings in data
 - add a legend
 	- filter the legend so that it doesn't show the basemap and LIO map
 	- perhaps combine the bus stop layers to condense the size of the legend
-- add logos??
 
 ---
 
