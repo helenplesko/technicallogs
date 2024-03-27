@@ -10,11 +10,12 @@ In this log:
 - [x] Exploring OpenStreetMap as a web solution (22/03/24 | 30 mins)
 - [x] Using the LIO Basemap (22/03/24 | 15 mins)
 - [x] Exploring other cities' public transit websites (22/03/24 | 15 mins)
-- [ ] Exploring Experience Builder (22/03/24 | 30 mins)
-- [x] Creating CSV files for Lindsay Transit data (22/03/24 | 5 mins)
+- [x] Exploring Experience Builder part 1 (22/03/24 | 30 mins)
+- [x] Creating CSV files for Lindsay Transit fares (22/03/24 | 5 mins)
+- [x] Exploring Experience Builder part 2 (27/03/24 | 60 mins)
 - [x] References
 
-Total Duration: 3 hrs 5 mins
+Total Duration: 4 hrs 5 mins
 
 ---
 
@@ -444,7 +445,7 @@ https://www.mississauga.ca/miway-transit/
 
 ---
 
-## Exploring Experience Builder
+## Exploring Experience Builder part 1
 
 Learn about the capabilities of Experience Builder and why it is a viable web solution for the group project
 
@@ -493,6 +494,8 @@ ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https
 
 6. From here, you can start adding features, such as titles, maps, apps, widgets, etc.
 
+![Lindsay Transit EB v1](images/ArcGISExperience/EBLindsay1.png)
+
 ### What info might be helpful to include in our web app?
 
 - map of bus stop and routes
@@ -502,13 +505,13 @@ ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https
 
 ---
 
-## Creating CSV files for Lindsay Transit data
+## Creating CSV files for Lindsay Transit fares
 
 Learn how to create a csv file from Lindsay transit data
 
 Duration: 5 mins
 
-### Create CSV for Lindsay Transit fare prices
+### Steps
 
 1. Visit https://www.kawarthalakes.ca/en/living-here/lindsay-transit.aspx. Scroll down on the page to see a table with fare prices, titled **Kawartha Lakes Transit Fares**.
 
@@ -518,9 +521,44 @@ Duration: 5 mins
 
 4. Save as **CSV (comma delimited)** file.
 
-5. Share to ArcGIS Online Group for other members to view and use.
+5. Share to ArcGIS Online Group as **csv** and **feature service** for other members to view and use.
 
-### Create CSV for Lindsay Transit bus schedule
+---
+
+## Exploring Experience Builder part 2
+
+Learn how to customize the Experience Builder interface
+
+60 mins
+
+### What was added to the experience?
+
+- legend
+- directions widget
+- table for bus stop schedules, available for all routes in a dropdown menu
+- table for the fare prices
+- bus stops were added to the map
+- footer was added to recognize course and college
+- button was added to allow users to download the pdf of the map (https://www.kawarthalakes.ca/en/living-here/resources/Transit/COKL-Transit-Map-2023.pdf)
+- orange color scheme was used to match Kawartha Lakes website (https://www.kawarthalakes.ca/en/living-here/lindsay-transit.aspx)
+
+![Lindsay Transit EB v2](/images/ArcGISExperience/EBLindsay2.png)
+
+### What happened when Directions widget was added?
+
+- I tried the directions widget, but I wasn't able to connect it to the transit data
+- I tried publishing the experience and it notified me that there may be credits used to access the Routes geocoded layer in the Directions widget
+- I ended up deleting the widget to avoid the additional costs
+
+![EB credit warning](/images/ArcGISExperience/EBCreditWarning.png)
+
+### Next steps
+
+- add a trigger to filter the bus stop times based on what time it is on the user's device
+- add a legend
+	- filter the legend so that it doesn't show the basemap and LIO map
+	- perhaps combine the bus stop layers to condense the size of the legend
+- add logos??
 
 ---
 
