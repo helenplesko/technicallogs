@@ -5,6 +5,7 @@ In this log:
 - [x] Project Overview (15/03/24 | 5 mins)
 - [x] Finding Lindsay transit data (20/03/24 | 10 mins)
 - [x] Uploading Lindsay transit data to ArcGIS Online (15/03/24 | 15 mins)
+- [x] Exploring ArcGIS Hub (Part 1) (19/03/24 | 15 mins)
 - [x] Exploring Public Transit Toolbox in ArcGIS Pro (20/03/24 | 30 mins)
 - [x] Exploring Mapbox as a web solution (21/03/24 | 30 mins)
 - [x] Exploring OpenStreetMap as a web solution (22/03/24 | 30 mins)
@@ -12,10 +13,12 @@ In this log:
 - [x] Exploring other cities' public transit websites (22/03/24 | 15 mins)
 - [x] Exploring Experience Builder (Part 1) (22/03/24 | 30 mins)
 - [x] Creating CSV files for Lindsay Transit fares (22/03/24 | 5 mins)
+- [x] Exploring ArcGIS Hub (Part 2) (22/03/24 | 15 mins)
 - [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
+- [x] Exploring Experience Builder (Part 3) (28/03/24 | 60 mins)
 - [x] References
 
-Total Duration: 4 hrs 5 mins
+Total Duration: 4 hrs 35 mins
 
 ---
 
@@ -114,6 +117,43 @@ Duration: 15 mins
 
 > [!WARNING]
 > After further inspection of the data, it was discovered that some bus stops were missing. Further processing must be done to ensure the general public can rely on the data to navigate around the city.
+
+---
+
+## Exploring ArcGIS Hub (Part 1)
+
+Learn the functionalities of ArcGIS Hub and explore it to see if it is a possible web solution
+
+Duration: 15 mins
+
+### What is ArcGIS Hub?
+
+- Application that you can use to easily build a website 
+- Customize the website to be able to share ArcGIS Online content internally or with the public
+
+### Advantages and disadvantages of ArcGIS Hub
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| Easy to use, drag and drop items  | Need credits to store and process data^  |
+| Included with Basic ArcGIS Online Account  | Moving things around the page can be finicky   | 
+| Can customize the theme/look of the hub  |   |
+
+^More on credits: https://doc.arcgis.com/en/arcgis-online/administer/credits.htm
+
+### Things to consider before creating your Hub
+
+- What is the purpose of your Hub?
+- Who is your audience? 
+- Who will be able to access the data in your hub?
+- What theme do you want your Hub to follow (e.g., colors, images, fonts, etc.)
+
+### Would Hub be useful for our group project?
+
+- **Yes**, non-GIS users will be able to navigate through the site
+- **Yes**, you don't need a lot of coding experience to use this web solution
+- **Yes**, it is part of ArcGIS Online, so Fleming can host it for the public
+- **No**, our purpose isn't to share the data with the public, just display it, so not sure if this is the best option for us
 
 ---
 
@@ -523,11 +563,71 @@ Duration: 5 mins
 
 ---
 
+## Exploring ArcGIS Hub (Part 2)
+
+Learn how to access ArcGIS Hub through ArcGIS Online
+
+Duration: 15 mins
+
+### Steps
+
+1. Sign into your ArcGIS Online account.
+
+> [!NOTE]
+> I had to sign in with my free personal account, not the organization education account.
+
+2. In the top right corner beside your user icon, click the ```waffle button``` and then click ```Hub```.
+
+3. In the **Hub Overview**, under **Sites**, click ```New```.
+
+![Hub Create](/images/ArcGISHub/HubCreate.png)
+
+4. Give your site a **name**.
+
+![Hub Name](/images/ArcGISHub/HubName.png)
+
+5. You now have two options:
+    - **Create Site** to explore it from scratch
+    - **Browse Templates** to work off of a pre-made template with a theme of interest
+
+6. To explore some of the functionalities as they are, I clicked ```Create Site```.
+
+7. Play around with the interface, make some customizations, familiarize yourself with the functionalities of ArcGIS Hub.
+
+![Hub Interface](/images/ArcGISHub/HubInterface.png)
+
+#### What I learned
+
+- There are many ways to add images to the page
+    - upload your own photos
+    - choose from a pool of existing photos
+    - enter URL to the image
+- The templates are visually appealing
+- There are opportunities to enter code to customize the page even further
+    - styling fonts
+    - adding iframe maps
+- Everything has its own section, making it easy to drag and drop elements where you need them
+
+#### Key features
+
+- The amount of icons available to use
+
+![Hub icons](/images/ArcGISHub/HubIcons.png)
+
+- The types of applications you can add to your page, linking to you ArcGIS Online content
+
+![Hub Apps](/images/ArcGISHub/HubApps.png)
+
+- The types of "cards" you can add to your page
+    - row, application, image, spacer, text, survey, category, contact info, map, chart, iframe, summary statistic, gallery, people, search, video, social media
+
+---
+
 ## Exploring Experience Builder (Part 2)
 
 Learn how to customize the Experience Builder interface
 
-60 mins
+Duration: 60 mins
 
 ### What was added to the experience?
 
@@ -561,11 +661,113 @@ Learn how to customize the Experience Builder interface
 
 ---
 
+## Exploring Experience Builder (Part 3)
+
+Learn how to make the interface interactive
+
+Assumption:
+- You already have an experience started
+
+Duration: 60 mins
+
+### Interactive Filter Widget
+
+Source: Geospatial Training Services. (2021, November 3). Interactive filter widget in Experience Builder [Video]. YouTube. https://www.youtube.com/watch?v=f-jz4gOKY54
+
+#### Steps
+
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` are both toggled off, or else you will not be able to edit the interface.
+
+1. Click the ```+``` icon on the upper lefthand side of the sidebar to display all the **widgets**.
+
+2. Scroll to **data centric** widgets and click and drag the ```Filter``` widget to your interface.
+
+![filter widget](/images/ArcGISExperience/EBFilter0.png)
+
+3. On the righthand side, click ```+ New Filter```.
+
+4. Click ```Select data``` and select the dataset you want to be filtered.
+	- I chose the layer with the routes
+
+5. **Label** the filter.
+
+6. Click ```SQL Expression Builder``` to add an SQL expression that will filter the data by desired attributes.
+	- to test this widget, I added a filter to allow the user to select blue routes only
+
+![Blue Route Filter SQL](/images/ArcGISExperience/EBFilter2.png)
+
+> [!NOTE]
+> You can either **add a clause** or **add a clause set**
+
+7. Click ```OK```.
+
+![Blue Route Filter](/images/ArcGISExperience/EBFilter1.png)
+
+8. Toggle on ```Live view``` to see it in action
+
+![Filter working](/images/ArcGISExperience/EBFilter3.png)
+
+9. Click ```Save``` then ```Publish```.
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| can be used to allow the user to only see specific bus routes  | need to write a SQL expression  |
+| all of the data in the experience will filter when toggled on  |   |
+| easy to toggle on and off  |   |
+| you can customize the appearance and activation style  |   |
+
+### Dynamic Lists
+
+Source: Corcoran, A. (2022, November 18). Enabling dynamic lists in ArcGIS Experience Builder [Video]. YouTube. https://www.youtube.com/watch?v=yN0hHZSx6z4
+
+#### Steps
+
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` are both toggled off, or else you will not be able to edit the interface.
+
+1. Click the ```+``` icon on the upper lefthand side of the sidebar to display all the **widgets**.
+
+2. Scroll to **data centric** widgets and click and drag the ```List``` widget to your interface.
+
+![list widget](/images/ArcGISExperience/EBList0.png)
+
+3. On the righthand side choose a **template** then click ```Start```.
+	- I chose the third **Row** template
+
+4. Click ```Select data``` and select the data you want to be displayed in the list.
+	- I chose the dataset with the routes
+
+5. Click on the **list entry** then click on the last icon to connect it to **dynamic content**. Select the attribute you want to be dynamic as the user interacts with the interface.
+
+![list dynamic content](/images/ArcGISExperience/EBList1.png)
+
+6. Toggle on ```Live view``` to see it in action
+
+**Showing all routes**
+![list with all routes](/images/ArcGISExperience/EBList2.png)
+
+**When blue routes is toggled**
+![list with blue route](/images/ArcGISExperience/EBList3.png)
+
+7. Click ```Save``` then ```Publish```.
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| automatically updates with other filters  |   |
+| you can customize the appearance and arrangement of the list  |   |
+
+---
+
 ## References
 
 ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https://www.youtube.com/watch?v=6e7Q6sN-kcs
 
 Esri. (2024). GTFS to public transit data model (public transit). *ArcGIS Pro.* https://pro.arcgis.com/en/pro-app/latest/tool-reference/public-transit/gtfs-to-public-transit-data-model.htm 
+
+Esri. [ArcGIS]. (2023, January 19). Build an ArcGIS Hub: Getting your ArcGIS Hub started [Video]. YouTube. https://www.youtube.com/watch?v=XMXryMx8zDo 
+
+Geospatial Training Services. (2021, November 3). Interactive filter widget in Experience Builder [Video]. YouTube. https://www.youtube.com/watch?v=f-jz4gOKY54
 
 GISGeography. (2024). Mapbox review: 5 things we like. https://gisgeography.com/mapbox/ 
 
