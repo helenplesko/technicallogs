@@ -15,10 +15,10 @@ In this log:
 - [x] Creating CSV files for Lindsay Transit fares (22/03/24 | 5 mins)
 - [x] Exploring ArcGIS Hub (Part 2) (22/03/24 | 15 mins)
 - [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
-- [x] Exploring Experience Builder (Part 3) (28/03/24 | 60 mins)
+- [x] Exploring Experience Builder (Part 3) (28/03/24 | 90 mins)
 - [x] References
 
-Total Duration: 4 hrs 35 mins
+Total Duration: 6 hrs 5 mins
 
 ---
 
@@ -668,7 +668,7 @@ Learn how to make the interface interactive
 Assumption:
 - You already have an experience started
 
-Duration: 60 mins
+Duration: 90 mins
 
 ### Interactive Filter Widget
 
@@ -757,11 +757,73 @@ Source: Corcoran, A. (2022, November 18). Enabling dynamic lists in ArcGIS Exper
 | automatically updates with other filters  |   |
 | you can customize the appearance and arrangement of the list  |   |
 
+### Survey Widget
+
+Learn how to create a survey widget in your Experience Builder interface
+
+#### Steps
+
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` are both toggled off, or else you will not be able to edit the interface.
+
+1. Click the ```+``` icon on the upper lefthand side of the sidebar to display all the **widgets**.
+
+2. Scroll to **data centric** widgets and click and drag the ```Survey``` widget to your interface.
+
+![survey widget](/images/ArcGISExperience/EBSurvey0.png)
+
+3. On the righthand side, select ```Create new survey```
+	- if you already have an existing survey, select ```Select my own survey```
+	- if you would like to select someone else's survey, select ```Select others' survey```
+
+4. Enter a **Name**, and optionally **Tags** and a **Summary**.
+
+5. Click ```Create```.
+
+6. A new interface will appear, where you can customize your survey.
+
+![survey interface](/images/ArcGISExperience/EBSurvey1.png)
+
+7. Click ```Preview``` to preview the survey and see how the questions/answers interact.
+
+7. Click ```Publish``` when you are satisfied with the set up of the survey
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| easier than using the Excel Survey123 sheets  |   |
+| drag and drop  |   |
+| can get feedback from the public of how to improve the web solution  |   |
+| can see and edit the survey schema before publishing  |   |
+
+#### My customizations
+
+- changed the theme color (background, header, page color)
+- added a summary
+- added 4 questions:
+	- two have rules set to them
+		- if the user chooses 1, 2, or 3 stars, the question "How can we make your experience better?" appears
+		- if the user chooses 4 or 5 stars, the question "What made your experience good/great?" appears
+	- two of them are required
+	- two allows for user input
+	- two allows user to select their choice
+- customized the thank you screen
+- edited the variables in the survey schema
+
+**Editing schema variables**
+
+![survey schema](/images/ArcGISExperience/EBSurvey2.png)
+
+**Published Survey Preview**
+
+![survey preview](/images/ArcGISExperience/EBSurvey3.png)
+
 ---
 
 ## References
 
 ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https://www.youtube.com/watch?v=6e7Q6sN-kcs
+
+Corcoran, A. (2022, November 18). Enabling dynamic lists in ArcGIS Experience Builder [Video]. YouTube. https://www.youtube.com/watch?v=yN0hHZSx6z4
 
 Esri. (2024). GTFS to public transit data model (public transit). *ArcGIS Pro.* https://pro.arcgis.com/en/pro-app/latest/tool-reference/public-transit/gtfs-to-public-transit-data-model.htm 
 
