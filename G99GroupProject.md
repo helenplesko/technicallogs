@@ -16,6 +16,7 @@ In this log:
 - [x] Exploring ArcGIS Hub (Part 2) (22/03/24 | 15 mins)
 - [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
 - [x] Exploring Experience Builder (Part 3) (28/03/24 | 90 mins)
+- [x] Exploring Leaflet (02/04/24)
 - [x] References
 
 Total Duration: 6 hrs 5 mins
@@ -819,6 +820,85 @@ Learn how to create a survey widget in your Experience Builder interface
 
 ---
 
+## Exploring Leaflet
+
+Learn about the functionalities of Leaflet as an open-source web solution
+
+### What is Leaflet?
+
+- A JS library
+
+### Why is this web solution of interest to our project?
+
+- We need a web solution for our group project
+- This web solution is free and open-sourced
+- We want to explore the functionalities to see if it is a viable solution to our problem statement
+
+| Advantages  | Disadvantages  |
+| ------------- | ------------- |
+| compatible with mobile phones  | uses JavaScript, and not everyone on the team is fully comfortable with that  |
+| it is open source and free  |   |
+| plethora of JS properties organized by type/usage  |   |
+| tutorials available  |   |
+
+### Download Leaflet 
+
+1. Visit https://leafletjs.com/download.html 
+
+2. Click on the latest stable version of Leaflet (in my case, Leaflet 1.9.4)
+
+3. Unzip the downloaded folder and store in your website's directory
+
+4. Include this line of code to the head of your HTML code
+
+	```
+	<link rel="stylesheet" href="/path/to/leaflet.css" />
+	<script src="/path/to/leaflet.js"></script>
+	```
+
+#### What's included in the download
+
+| File/Folder  | Description  |
+| ------------- | ------------- |
+| leaflet.js  | minified Leaflet JavaScript code  |
+| leaflet.js.map  | map file for minified code  |
+| leaflet-src.js  | readable, unminified Leaflet JavaScript, which can be helpful for debugging  |
+| leaflet-src.js.map  | map file for unminified code  |
+| leaflet-src.esm.js  | unminified code, esm game file  |
+| leaflet-src.esm.js.map  | map file for esm game file  |
+| leaflet.css  | stylesheet  |
+| images  | contains images referenced by the stylesheet, must stay in same directory as css  |
+
+#### What is an .esm file?
+
+- I've never seen this file before - had to do a bit of research
+- ESM files hold game data, including characters, in-game items, world environments, and settings
+- developed by Betheseda Softworks
+- you need special software to open the file directly
+
+FileInfo.com. (2012). *.ESM file extension.* https://fileinfo.com/extension/esm
+
+Filext. (2024). *Opening an ESM file.* https://filext.com/file-extension/ESM
+
+### Complete Leaflet tutorials
+
+- Tutorial 1: Leaflet Quick Start Guide
+
+#### Tutorial 1: Leaflet Quick Start Guide
+
+1. Visit https://leafletjs.com/examples/quick-start/ to follow the tutorial
+
+2. Create a public repository in GitHub to hold all js, css, html files
+
+3. 
+
+#### Will this be a good web solution for our project?
+
+- **Yes**, since it is compatible with mobile phones, this makes it accessible for someone who is out using public transit
+- **No**, not the most efficient solution because it requires a lot of coding from scratch if templates cannot be found, which will take time
+
+---
+
 ## References
 
 ArcGIS. (2021, August 20). Getting started with ArcGIS Experience Builder. https://www.youtube.com/watch?v=6e7Q6sN-kcs
@@ -828,6 +908,10 @@ Corcoran, A. (2022, November 18). Enabling dynamic lists in ArcGIS Experience Bu
 Esri. (2024). GTFS to public transit data model (public transit). *ArcGIS Pro.* https://pro.arcgis.com/en/pro-app/latest/tool-reference/public-transit/gtfs-to-public-transit-data-model.htm 
 
 Esri. [ArcGIS]. (2023, January 19). Build an ArcGIS Hub: Getting your ArcGIS Hub started [Video]. YouTube. https://www.youtube.com/watch?v=XMXryMx8zDo 
+
+FileInfo.com. (2012). *.ESM file extension.* https://fileinfo.com/extension/esm
+
+Filext. (2024). *Opening an ESM file.* https://filext.com/file-extension/ESM
 
 Geospatial Training Services. (2021, November 3). Interactive filter widget in Experience Builder [Video]. YouTube. https://www.youtube.com/watch?v=f-jz4gOKY54
 
