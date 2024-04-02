@@ -16,10 +16,11 @@ In this log:
 - [x] Exploring ArcGIS Hub (Part 2) (22/03/24 | 15 mins)
 - [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
 - [x] Exploring Experience Builder (Part 3) (28/03/24 | 90 mins)
-- [x] Exploring Leaflet (02/04/24)
+- [ ] Exploring Leaflet (02/04/24 | 60 mins)
+- [ ] Exploring past group projects on Luna server and templates (02/04/24 | 30 mins)
 - [x] References
 
-Total Duration: 6 hrs 5 mins
+Total Duration: 7 hrs 35 mins
 
 ---
 
@@ -826,7 +827,7 @@ Learn about the functionalities of Leaflet as an open-source web solution
 
 ### What is Leaflet?
 
-- A JS library
+- A JS library used to create interactive mobile web solutions
 
 ### Why is this web solution of interest to our project?
 
@@ -871,13 +872,13 @@ Learn about the functionalities of Leaflet as an open-source web solution
 
 #### What is an .esm file?
 
-- I've never seen this file before - had to do a bit of research
+I've never seen this file before - had to do a bit of research...
+
 - ESM files hold game data, including characters, in-game items, world environments, and settings
 - developed by Betheseda Softworks
 - you need special software to open the file directly
 
 FileInfo.com. (2012). *.ESM file extension.* https://fileinfo.com/extension/esm
-
 Filext. (2024). *Opening an ESM file.* https://filext.com/file-extension/ESM
 
 ### Complete Leaflet tutorials
@@ -896,6 +897,48 @@ Filext. (2024). *Opening an ESM file.* https://filext.com/file-extension/ESM
 
 - **Yes**, since it is compatible with mobile phones, this makes it accessible for someone who is out using public transit
 - **No**, not the most efficient solution because it requires a lot of coding from scratch if templates cannot be found, which will take time
+
+---
+
+## Exploring past group projects on Luna server and templates
+
+Visit and compare other group projects' HTML submissions to get inspiration for our own
+
+Duration: 30 mins
+
+### What did most websites include?
+
+- about page (describing the project, disclaimer that this is for educational purposes only)
+- problem definition (headings derived from problem statement excel sheet)
+- methodology (with steps and screenshots)
+- solutions (with screenshots and links to live versions)
+- team (an image for each team member and a description)
+
+### Potential pages to include on our webpage
+
+- home page
+- problem definition
+- about the data page
+- open source web solutions page
+- ArcGIS Hub page
+- ArcGIS Experience Builder page
+- team page
+
+### Potential templates we can use
+
+#### Neat: Free HTML5 Bootstrap Website Template for Portfolio
+
+- from freehtml5.co
+- clean layout, bright, easy to navigate
+- tried to download it but didn't get an email confirmation?
+- access it here: https://freehtml5.co/neat-free-html5-bootstrap-website-template-for-portfolio/
+
+#### Clothing Store W3.CSS Template
+
+- from w3schools
+- has a fixed sidebar which will be easy for navigating the site
+- will have to remove the layout of the images, but spacing of everything looks good
+- https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm
 
 ---
 
