@@ -19,6 +19,7 @@ In this log:
 - [x] Exploring Leaflet (Part 1) (02/04/24 | 30 mins)
 - [x] Exploring past group projects on Luna server and templates (02/04/24 | 30 mins)
 - [x] Exploring Leaflet (Part 2) (03/04/24 | 30 mins)
+- [x] Convert shapefiles to GeoJSON (03/04/24 | 30 mins)
 - [x] References
 
 Total Duration: 7 hrs 35 mins
@@ -1000,6 +1001,83 @@ Duration: 30 mins
 
 - The GTFS data will have to be converted to geojson so it can be used with Leaflet
 - This will require a lot of customization, so I'm not sure if this is the most efficient web solution for our group project
+
+---
+
+## Convert shapefile to geojson
+
+Use an online geodata converter to convert shapefiles to geojson files
+
+Duration: 30 mins
+
+### NOTE
+
+- I found this information on how to convert GTFS data to GeoJSON: https://gtfs.org/resources/gtfs/#:~:text=gtfs%2Dto%2Dgeojson%20%2D%20Javascript,creating%20maps%20of%20transit%20routes.
+- But I was unsure of how to use it in GitHub, so I went searching for an online converter to help me.
+- I instead found a shapefile to geojson converter, and I already had the shapefiles of routes and stops from Ontario GeoHub, so I used that.
+- However, this data is NOT up to date (no orange line), which I will have to bring to the group's attention at the next meeting.
+- **This was done for exploration purposes, so I can see how the geojson file works in Leaflet**
+
+### Steps
+
+1. Visit MyGeodata Converter website at: https://mygeodata.cloud/converter/
+
+2. Under **Available Conversions**
+	- Choose ```ESRI Shapefile``` as the input format
+	- Choose ```GeoJSON``` as the output format
+	- Click ```Check```
+	- The site will confirm that the conversion is supported
+	- Click ```Convert SHP to GeoJSON```
+
+![avail conversions](/images/Leaflet/shptogeojson0.png)
+
+3. Under **Upload your SHP File and Convert**
+	- Click ```Or browse files to convert``` to find them in your file explorer
+
+![upload shp to converter](/images/Leaflet/shptogeojson1.png)
+
+4. Click ```Add files...``` to upload your zipped shapefile
+
+![add files](/images/Leaflet/shptogeojson2.png)
+
+5. Review the **Input Data**, **Output Data**, and **Conversion**, then click ```Convert now!```
+
+> [!NOTE]
+> Optionally, you can click **Show in a Map** to view the shapefile on a map
+
+![review data](/images/Leaflet/shptogeojson3.png)
+
+6. Review the **Conversion Result** and click ```Download```
+
+![review and download](/images/Leaflet/shptogeojson4.png)
+
+7. Repeat for each shapefile
+
+8. Add the geoJSON files to ArcGIS Online shared group
+
+### Video: Create a geoJSON File and Add to Leaflet
+
+GIS Solutions. (2022, August 26). Create a geoJSON file and add to Leaflet [Video]. YouTube. https://www.youtube.com/watch?v=A32HNVgcMkE
+
+1. Copy the geojson code from the newly converted files
+
+2. In the script portion of the body of the html file
+	- add ``` var geojson = ```
+	- paste the geojson after the equal sign
+
+3. On the line after the geojson code
+	- add ```L.geoJSON(geojson).addTo(map)```
+
+4. ```Save``` and ```Commit changes```, then view the result
+	- the result can be seen here: https://helenplesko.github.io/leaflettest/geojsontransit.html
+
+![geojson leaflet 1](/images/Leaflet/shptogeojson5.png)
+
+5. Edit the code again to customize the page
+	- zoom in
+	- remove the pop up
+	- change the appearance of the point features
+	- change the color of the routes
 
 ---
 
