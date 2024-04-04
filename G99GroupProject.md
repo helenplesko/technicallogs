@@ -17,7 +17,7 @@ In this log:
 - [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
 - [x] Exploring Experience Builder (Part 3) (28/03/24 | 90 mins)
 - [x] Exploring Leaflet (Part 1) (02/04/24 | 30 mins)
-- [ ] Exploring past group projects on Luna server and templates (02/04/24 | 30 mins)
+- [x] Exploring past group projects on Luna server and templates (02/04/24 | 30 mins)
 - [x] Exploring Leaflet (Part 2) (03/04/24 | 30 mins)
 - [x] References
 
@@ -937,6 +937,8 @@ Duration: 30 mins
 
 Learn more about the functionalities of Leaflet through tutorials
 
+Duration: 30 mins
+
 ### Prepare GitHub for Leaflet test page deployments
 
 1. Sign in to **GitHub**
@@ -991,6 +993,8 @@ Learn more about the functionalities of Leaflet through tutorials
 13. ```Save``` and ```Commit changes```, wait a few minutes, then visit your page
 
 14. Here is my demo: https://helenplesko.github.io/leaflettest/index.html 
+
+![leaflet test 1](/images/Leaflet/LeafletTut1.png)
 
 ### Take aways
 
