@@ -16,8 +16,9 @@ In this log:
 - [x] Exploring ArcGIS Hub (Part 2) (22/03/24 | 15 mins)
 - [x] Exploring Experience Builder (Part 2) (27/03/24 | 60 mins)
 - [x] Exploring Experience Builder (Part 3) (28/03/24 | 90 mins)
-- [ ] Exploring Leaflet (02/04/24 | 60 mins)
+- [x] Exploring Leaflet (Part 1) (02/04/24 | 30 mins)
 - [ ] Exploring past group projects on Luna server and templates (02/04/24 | 30 mins)
+- [x] Exploring Leaflet (Part 2) (03/04/24 | 30 mins)
 - [x] References
 
 Total Duration: 7 hrs 35 mins
@@ -821,9 +822,11 @@ Learn how to create a survey widget in your Experience Builder interface
 
 ---
 
-## Exploring Leaflet
+## Exploring Leaflet (Part 1)
 
 Learn about the functionalities of Leaflet as an open-source web solution
+
+Duration: 30 mins
 
 ### What is Leaflet?
 
@@ -881,22 +884,10 @@ I've never seen this file before - had to do a bit of research...
 FileInfo.com. (2012). *.ESM file extension.* https://fileinfo.com/extension/esm
 Filext. (2024). *Opening an ESM file.* https://filext.com/file-extension/ESM
 
-### Complete Leaflet tutorials
-
-- Tutorial 1: Leaflet Quick Start Guide
-
-#### Tutorial 1: Leaflet Quick Start Guide
-
-1. Visit https://leafletjs.com/examples/quick-start/ to follow the tutorial
-
-2. Create a public repository in GitHub to hold all js, css, html files
-
-3. 
-
 #### Will this be a good web solution for our project?
 
 - **Yes**, since it is compatible with mobile phones, this makes it accessible for someone who is out using public transit
-- **No**, not the most efficient solution because it requires a lot of coding from scratch if templates cannot be found, which will take time
+- **No**, not the most efficient solution because it requires a lot of customization, which will take time
 
 ---
 
@@ -939,6 +930,72 @@ Duration: 30 mins
 - has a fixed sidebar which will be easy for navigating the site
 - will have to remove the layout of the images, but spacing of everything looks good
 - https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm
+
+---
+
+## Exploring Leaflet (Part 2)
+
+Learn more about the functionalities of Leaflet through tutorials
+
+### Prepare GitHub for Leaflet test page deployments
+
+1. Sign in to **GitHub**
+
+2. Create a **public repository** in to hold all js, css, html files. I called mine **leaflettest**
+
+3. Click on the ```Settings``` of your repository
+
+4. In the left sidebar, click ```Pages```
+
+5. Under **Branch**, click the dropdown bar and select ```main```, then click ```Save```
+
+6. Create .html pages with desired code
+
+### Tutorial 1: Quick Start Guide
+
+1. Navigate to the tutorial: https://leafletjs.com/examples/quick-start/
+
+2. Scroll down and click the example, or visit this link: https://leafletjs.com/examples/quick-start/
+
+3. Right-click on the screen and click ```View page source```
+
+4. Review the code
+	- leaflet css
+	- styling of the map size
+	- geojson of points, lines, polygons, pop ups
+	- inline styling
+	- user interaction when clicked
+
+5. **Copy** this code
+
+6. Head into the **GitHub** repository
+
+7. Click ```Add file``` and from the dropdown menu, click ```Create new file```
+
+8. **Name** your file then paste the code 
+
+9. Click ```Commit changes...```
+
+10. Wait a few minutes, or until the action dot turns green
+
+11. Visit your html page - you should see the map deployed on the page
+
+12. Make customizations to the page
+	- change the map center
+	- change the coordinates of the pop up
+	- change the coordinates of the polygon
+	- change the pop up text
+	- add a title
+	- change the map size
+
+13. ```Save``` and ```Commit changes```, wait a few minutes, then visit your page
+
+14. Here is my demo: https://helenplesko.github.io/leaflettest/index.html 
+
+### Take aways
+
+- The GTFS data will have to be converted to geojson so it can be used with Leaflet
+- This will require a lot of customization, so I'm not sure if this is the most efficient web solution for our group project
 
 ---
 
