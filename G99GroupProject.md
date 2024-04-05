@@ -22,7 +22,11 @@ In this log:
 - [x] Convert shapefiles to GeoJSON (03/04/24 | 30 mins)
 - [x] References
 
-Total Duration: 7 hrs 35 mins
+Total Duration: 8 hrs 5 mins
+
+> [!NOTE]
+> These times reflect the amount of time it will take to go through the task here on GitHub. 
+> To see the hours I put into completing these tasks for the first time, please see my timesheet.
 
 ---
 
@@ -1009,6 +1013,11 @@ Duration: 30 mins
 Use an online geodata converter to convert shapefiles to geojson files
 
 Duration: 30 mins
+
+> [!NOTE]
+> Converting a shapefile to geojson can also be done in ArcGIS Pro, using the **Features to JSON** Conversion Tool.
+> However, since we are looking for web solutions, the online converter was used instead.
+> More about the ArcGIS Pro tool can be found here: https://pro.arcgis.com/en/pro-app/3.1/tool-reference/conversion/features-to-json.htm
 
 ### NOTE
 
