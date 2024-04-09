@@ -20,6 +20,7 @@ In this log:
 - [x] Exploring past group projects on Luna server and templates (02/04/24 | 30 mins)
 - [x] Exploring Leaflet (Part 2) (03/04/24 | 30 mins)
 - [x] Convert shapefiles to GeoJSON (03/04/24 | 30 mins)
+- [x] Preparing the final Experience Builder (Part 1) (08/04/24 | 60 mins)
 - [x] References
 
 Total Duration: 8 hrs 5 mins
@@ -1087,6 +1088,118 @@ GIS Solutions. (2022, August 26). Create a geoJSON file and add to Leaflet [Vide
 	- remove the pop up
 	- change the appearance of the point features
 	- change the color of the routes
+
+---
+
+## Preparing the final Experience Builder (Part 1)
+
+Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457596631d4420ef85f4/ 
+
+### Step 1: Create a copy of the previously created experience
+
+1. Sign in to ArcGIS Online
+
+2. Under **Content**, locate the **HP_LindsayTransit** Web Experience
+	- Click the ```three dots``` on that experience
+	- Click ```View details```
+
+3. On the item page, click ```Edit``` to open up the editing interface of the experience
+
+4. In the top right-hand corner of the interface, click the ```three dots```
+
+5. Click ```Save as``` to make a copy of the project
+	- Give the copy the name **FinalLindsayTransit**
+	- Optionally, add a summary and tags
+	- Click ```OK```
+
+### Step 2: Customize the layout
+
+- remove the table of Lindsay Transit Fares
+- remove the table of bus schedules
+- remove the legend
+- change the header and footer background color to blue
+- change the header and footer font color to white
+- adjust the lindsay transit map button to match the header buttons
+- remove the second share button
+- remove the filter widget
+- remove the list widget
+
+### Step 3: Embed Sharmila's dashboard
+
+1. In another tab, sign in to ArcGIS Online
+
+2. Click ```Content``` and then click ```My organization```
+
+3. Locate Sharmila's **Lindsay Transit** Dashboard to be added to the Experience
+	- Click the ```three dots``` on that dashboard
+	- Click ```View details``
+	- On the items page of the dashboard, scroll down and **copy the URL**
+
+4. In the other tab with the editing interface of the Experience Builder, click the ```+``` icon on the upper lefthand side of the sidebar to display all the **widgets**.
+
+5. Scroll to **Page elements** widgets and click and drag the ```Embed``` widget to your interface.
+
+![embed widget](/images/ArcGISExperience/EBEmbed0.png)
+
+6. On the righthand side, paste the URL. The widget should automatically update with the Dashboard.
+
+![dashboard embedded](/images/ArcGISExperience/EBEmbed1.png)
+
+> [!NOTE]
+> You may be asked to sign into ArcGIS Online to see the updated widget. If this is the case, click ```Live view``` at the top of the editing interface, click ```OK``` on the sign in prompt, sign in, and it should update. When you want to go back to editing, click ```Live view``` again.
+
+![sign in warning](/images/ArcGISExperience/EBSignInWarning.png)
+
+> [!IMPORTANT]
+> The owner needs to make sure the Dashboard is shared properly, so that I can access the URL, add it to the experience, and view it. The share settings must not be set to **Owner**.
+
+### Step 4: Add Athulya's spash page
+
+1. In the editing interface of the Experience Builder, click the ```page icon``` on the upper lefthand side of the sidebar.
+
+2. Click ```Window``` to switch to viewing all the windows within the experience.
+
+3. Click the ```+``` icon on the window to add a window.
+
+![add window](/images/ArcGISExperience/EBSplash1.png)
+
+4. Scroll down and choose your layout of choice of this window.
+	- I chose the **Simple** version
+
+![window layout](/images/ArcGISExperience/EBSplash2.png)
+
+5. Add an image and text.
+	- On our splash page, we wanted to include an image of the routes and also text indicating what the purpose of the experience is.
+	- Since this experience was for exploration purposes and the data needs some fine tuning, we added a disclaimer at the bottom.
+	- User must accept the terms and conditions in order to view the experience.
+
+![editing splash](/images/ArcGISExperience/EBSplash3.png)
+
+6. On the righthand side, customize how the user sees and interacts with the splash page.
+	- fixed mode
+	- center position
+	- block page
+	- alter the text size
+	- for **Close options**
+		- always show the window
+		- add type confirmation
+		- choose the style
+
+![editing splash](/images/ArcGISExperience/EBSplash4.png)
+
+7. When ready, click the icon next to the page name to ```Set as splash```.
+
+![editing splash](/images/ArcGISExperience/EBSplash5.png)
+
+8. Now, when the experience is visited, this splash page will open up
+	- if the user **does not** accept terms and conditions, the checkbox will flash red, and they will not be able to see the experience until they cli
+	- if the user **does** accept the terms and conditions, they will see the experience
+
+![editing splash](/images/ArcGISExperience/EBSplash6.png)
+
+### Step 5: Add Rahul's near me widget
+
+
 
 ---
 
