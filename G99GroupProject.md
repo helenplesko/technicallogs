@@ -1114,6 +1114,9 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 
 ### Step 2: Customize the layout
 
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` are both toggled off, or else you will not be able to edit the interface.
+
 - remove the table of Lindsay Transit Fares
 - remove the table of bus schedules
 - remove the legend
@@ -1137,6 +1140,9 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 
 4. In the other tab with the editing interface of the Experience Builder, click the ```+``` icon on the upper lefthand side of the sidebar to display all the **widgets**.
 
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` in Experience Builder are both toggled off, or else you will not be able to edit the interface.
+
 5. Scroll to **Page elements** widgets and click and drag the ```Embed``` widget to your interface.
 
 ![embed widget](/images/ArcGISExperience/EBEmbed0.png)
@@ -1144,6 +1150,8 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 6. On the righthand side, paste the URL. The widget should automatically update with the Dashboard.
 
 ![dashboard embedded](/images/ArcGISExperience/EBEmbed1.png)
+
+7. Click ```Save``` then ```Publish```.
 
 > [!NOTE]
 > You may be asked to sign into ArcGIS Online to see the updated widget. If this is the case, click ```Live view``` at the top of the editing interface, click ```OK``` on the sign in prompt, sign in, and it should update. When you want to go back to editing, click ```Live view``` again.
@@ -1154,6 +1162,9 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 > The owner needs to make sure the Dashboard is shared properly, so that I can access the URL, add it to the experience, and view it. The share settings must not be set to **Owner**.
 
 ### Step 4: Add Athulya's spash page
+
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` in Experience Builder are both toggled off, or else you will not be able to edit the interface.
 
 1. In the editing interface of the Experience Builder, click the ```page icon``` on the upper lefthand side of the sidebar.
 
@@ -1197,9 +1208,39 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 
 ![editing splash](/images/ArcGISExperience/EBSplash6.png)
 
+9. Click ```Save``` then ```Publish```.
+
 ### Step 5: Add Rahul's near me widget
 
+> [!NOTE]
+> Ensure ```Lock layout``` and ```Live view``` in Experience Builder are both toggled off, or else you will not be able to edit the interface.
 
+1. Click the ```+``` icon on the upper lefthand side of the sidebar to display all the **widgets**.
+
+2. Scroll to **Map centric** widgets and click and drag the ```Map``` widget to your interface.
+	- On the righthand side, click ```Select map``` and connect it to the Lindsay map that displays the bus stops and bus routes
+
+3. Also in **Map centric** widgets, click and drag the ```Near Me``` widget to your interface.
+
+![near me widget](/images/ArcGISExperience/EBNearMe0.png)
+
+4. On the righthand side, customize the widget:
+	- Under **Select a map widget**, click the map you want it to link to. In my case, it is on the **Current page** ```Map 2```.
+	- Add a **Custom welcome message** to give the user instructions on what to do with the widget.
+	- The **Analysis Settings** will automatically update with your selected map. Click this map to configure the analysis settings.
+	- Click ```Add Analysis``` and select the layer you want to configure.
+		- Choose the **Analysis Type** as ```Proximity```.
+		- Choose a **Highlight color** to match the bus route color. 
+		- Change the **Display field** to the display the intersection of the bus stop.
+		- Do this for all four bus routes.
+
+![near me customization](/images/ArcGISExperience/EBNearMe1.png)
+
+4. Arrange both widgets where you see fit.
+
+![final near me](/images/ArcGISExperience/EBNearMe2.png)
+
+5. Click ```Save``` then ```Publish```.
 
 ---
 
