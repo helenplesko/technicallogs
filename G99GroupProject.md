@@ -24,7 +24,7 @@ In this log:
 - [x] Preparing the final Experience Builder (Part 2) (09/04/24 | 30 mins)
 - [x] References
 
-Total Duration: 8 hrs 5 mins
+Total Duration: 9 hrs 35 mins
 
 > [!NOTE]
 > These times reflect the amount of time it will take to go through the task here on GitHub. 
