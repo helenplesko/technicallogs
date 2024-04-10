@@ -1249,7 +1249,7 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 
 5. Click ```Save``` then ```Publish```.
 
-### NOTES
+### Step 6: Review Experience
 
 - I feel as though having both maps on there is redundant
 - I think the features in the Dashboard can be mimicked using widgets
