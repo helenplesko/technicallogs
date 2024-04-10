@@ -21,6 +21,7 @@ In this log:
 - [x] Exploring Leaflet (Part 2) (03/04/24 | 30 mins)
 - [x] Convert shapefiles to GeoJSON (03/04/24 | 30 mins)
 - [x] Preparing the final Experience Builder (Part 1) (08/04/24 | 60 mins)
+- [x] Preparing the final Experience Builder (Part 2) (09/04/24 | 30 mins)
 - [x] References
 
 Total Duration: 8 hrs 5 mins
@@ -1161,7 +1162,7 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 > [!IMPORTANT]
 > The owner needs to make sure the Dashboard is shared properly, so that I can access the URL, add it to the experience, and view it. The share settings must not be set to **Owner**.
 
-### Step 4: Add Athulya's spash page
+### Step 4: Add Athulya's splash page
 
 > [!NOTE]
 > Ensure ```Lock layout``` and ```Live view``` in Experience Builder are both toggled off, or else you will not be able to edit the interface.
@@ -1210,6 +1211,12 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 
 9. Click ```Save``` then ```Publish```.
 
+---
+
+## Preparing the final Experience Builder (Part 2)
+
+Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457596631d4420ef85f4/ 
+
 ### Step 5: Add Rahul's near me widget
 
 > [!NOTE]
@@ -1247,6 +1254,15 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 - I feel as though having both maps on there is redundant
 - I think the features in the Dashboard can be mimicked using widgets
 - This also makes customizing easier, as it is in one interface - you wouldn't have to go back and forth between Experience Builder and Dashboard
+- So, I edited the other page to mimic the dashboard using widgets
+- Widgets added:
+	- Map: to display routes and bus stops
+	- Near Me: to display the bus stops based on the zoom extent of the map; feature count updates when the user clicks "Update results"
+	- Table: four tables combined, where each route can be accessed from the dropdown menu; displaying the bus stop name and time it arrives; user can use the search feature to search either the bus stop or the time
+	- Table: one table showing the fare prices for Lindsay Transit
+	- Legend: labelling the bus stops and routes
+
+![new page](/images/ArcGISExperience/EBNearMe3.png)
 
 ---
 
