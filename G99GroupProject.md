@@ -23,6 +23,7 @@ In this log:
 - [x] Preparing the final Experience Builder (Part 1) (08/04/24 | 60 mins)
 - [x] Preparing the final Experience Builder (Part 2) (09/04/24 | 30 mins)
 - [x] Preparing the website (Part 1) (10/04/24 | 3 hours)
+- [x] Preparing the website (Part 2) (10/04/24 | 2 hours)
 - [x] References
 
 Total Duration: 12 hrs 35 mins
@@ -1328,6 +1329,25 @@ Link to the website: https://helenplesko.github.io/web2lindsaytransit/
 > I shared this repository with the group and this will be the website we use going forward.
 
 ![website version 2](/images/GroupWebsite/websiteversion2.png)
+
+---
+
+## Preparing the website (Part 2)
+
+Link to the website: https://helenplesko.github.io/web2lindsaytransit/
+
+### Editing the website
+
+- added logo to the footer
+- created an advantage and disadvantage table to each page
+- centered all images
+- changing the color of the background
+- proofreading text on each page
+- adding more horizontal lines to make the pages visually appealing
+
+**Example:**
+
+![page showing edits](images/GroupWebsite/editingpart2example.png)
 
 ---
 
