@@ -22,9 +22,10 @@ In this log:
 - [x] Convert shapefiles to GeoJSON (03/04/24 | 30 mins)
 - [x] Preparing the final Experience Builder (Part 1) (08/04/24 | 60 mins)
 - [x] Preparing the final Experience Builder (Part 2) (09/04/24 | 30 mins)
+- [x] Preparing the website (Part 1) (10/04/24 | 3 hours)
 - [x] References
 
-Total Duration: 9 hrs 35 mins
+Total Duration: 12 hrs 35 mins
 
 > [!NOTE]
 > These times reflect the amount of time it will take to go through the task here on GitHub. 
@@ -1263,6 +1264,70 @@ Link to the Experience: https://experience.arcgis.com/experience/c86fab4d3b0c457
 	- Legend: labelling the bus stops and routes
 
 ![new page](/images/ArcGISExperience/EBNearMe3.png)
+
+---
+
+## Preparing the website (Part 1)
+
+Link to the website: https://helenplesko.github.io/web2lindsaytransit/
+
+### Set up website template in GitHub
+
+1. Rahul prepared the template. He used the code from his group's GEOM101 project (last semester).
+
+2. Sharmila created the repository in GitHub to store all folders and files, and invited all group members to the repository.
+
+3. Group members accepted the invitation, cloned the GitHub repository in Visual Studio Code, and the editing began!
+
+![website version 1](/images/GroupWebsite/websiteversion1.png)
+
+### Create Logo
+
+1. Visit and sign in to ```https://www.canva.com/```
+
+2. On the homepage, click ```Logo```
+
+3. Using the **free** design templates and images, create a logo that matches our group's theme
+	- I created different versions, so the group could decide which one we all like best
+	- the different versions can also be used in various parts of the website (e.g., one in header, one in footer, etc.)
+
+4. When complete, in the topright corner:
+	- Click ```Share```
+	- Choose **File type** ```PNG```
+	- Select the pages you want to save
+	- Click ```Download```
+
+5. Review your images. 
+
+6. In **Paint**:
+	- resize the images for the website
+	- remove the image background
+
+![possible header logo](/images/Canva/ahrs1.png)
+
+![possible header logo 2](/images/Canva/ahrs2.png)
+
+![possible footer logo](/images/Canva/ahrs3.png)
+
+### Edit the website
+
+- I added a footer to the website, to indicate copyrights and course details
+- I added some social media icons, linking to LinkedIn and Fleming email
+- I added the problem statement details on the home page
+- I tried adding the logo to the header, but there was a sizing issue
+- I tested the responsive design, but it wasn't operating properly
+- The code was confusing to read, because it still had GEOM101 details in it (owner info, code that was irrelevant)
+
+![header errors](/images/GroupWebsite/headererrors.png)
+
+![responsive errors](/images/GroupWebsite/responsiveerrors.png)
+
+> [!NOTE]
+> Due to the issues discovered when editing the website and the timeline of our project, I created a new repository with the template of my group's GEOM101 project (Layer Larks).
+> There are no issues with the logo, no issues with the responsive design, and I cleared the code of any irrelevant information.
+> I shared this repository with the group and this will be the website we use going forward.
+
+![website version 2](/images/GroupWebsite/websiteversion2.png)
 
 ---
 
