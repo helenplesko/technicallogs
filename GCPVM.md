@@ -6,9 +6,10 @@ In this log:
 - [x] Setting Firewall Rules for Virtual Machine on Google Cloud Platform (08/03/24 | 10 mins)
 - [x] How to check your ArcGIS Server Manager and REST Endpoints (08/03/24 | 5 mins)
 - [x] How to Start and Stop Your Virtual Machine on Google Cloud Platform (08/03/24 | 5 mins)
+- [x] How to delete your Virtual Machine on Google Cloud Platform (05/02/24 | 5 mins)
 - [x] References
 
-Total Duration: 50 mins
+Total Duration: 55 mins
 
 ## Creating a Virtual Machine on Google Gloud Platform
 
@@ -137,6 +138,45 @@ Expected Duration: 5 mins
 3. If you would like to start it up again, simply click the three dots and then ```Start / Resume```.
 
 :tada: *Congratulations! You have now learned how to start and stop your virtual machine through Google Cloud Platform.*
+
+
+## How to delete your Virtual Machine on Google Cloud Platform
+
+Learn how to delete your virtual machine when you are done using it and want to stop all billing charges.
+
+Assumptions(s):
+- You have already created a virtual machine on Google Cloud Platform
+- You have completed all work necessary on this virtual machine and are ready to delete it
+
+### Steps
+
+> [!IMPORTANT]
+> Ensure your VM is not running (the status will be set to the stop icon).
+
+1. Click the ```checkbox``` on the lefthand side of your VM to **select it**.
+
+2. Click the ```DELETE``` button above the list of VMs.
+
+![delete vm](images/GCPVM/GCPVMDelete.png)
+
+3. When the VM is deleted, you should receive a notification confirming that action.
+
+![notification of deletion](images/GCPVM/GCPVMDeleteNotif.png)
+
+4. Under **Virtual machines** in the left toolbar, click ```Machine images``` and check to ensure that there are no longer any images running or being stored.
+
+![machine images](images/GCPVM/GCPVMMachineImages.png)
+
+5. Under **Storage** in the left toolbar, click ```Images``` and check to ensure that there are no longer any images running or being stored.
+
+> [!NOTE]
+> In this section, you will see some default images. You do not need to delete these. Only delete the ones that are directly related to your virtual machine.
+
+![storage images](images/GCPVM/GCPVMStorageImages.png)
+
+6. Browse the other tabs that your virtual machine may have added data to and ensure they are gone as well.
+
+:tada: *Congratulations! You have now learned how to delete your virtual machine on Google Cloud Platform.*
 
 
 ## References
